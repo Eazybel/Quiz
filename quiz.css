@@ -1,0 +1,45 @@
+
+.div{
+    display: grid;
+    justify-content: center;
+    
+    border-radius: 10px;
+    width: 300px;
+    height: 450px;
+    margin-left: 800px;
+    margin-top: 150px;
+    box-shadow: 1px 10px 1000px 20px black;
+    }
+    .div:hover{
+        box-shadow: 1px 10px 1000px 20px black;
+        
+        }
+    .link:hover{
+        margin-left:5px;
+        border: none;
+        border-radius: 4px;
+        width: 120px;
+        height: 40px;
+        background-color: rgb(154, 166, 182);
+        color: rgb(39, 37, 37);
+    }
+    .link{
+        margin-left:5px;
+        margin-top: 5px;
+        border: none;
+        border-radius: 4px;
+        width: 120px;
+        height: 30px;
+        background-color: rgb(153, 156, 160);
+        color: rgb(255, 255, 255);
+        transform: translateY(3px);
+    }
+    .lin{
+        margin-left: 20px;
+    }
+    .head{
+        margin-left: 50px;
+    }
+    #para{
+        text-align: center;
+    }
