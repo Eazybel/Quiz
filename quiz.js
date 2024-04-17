@@ -11,7 +11,7 @@ const fun2=function (){
    para.textContent=("This service is not available");
 }
 link1.onclick=setTimeout(fun,3000);
-link1.onclick=setTimeout(fun,3000);
+
 
 
 
