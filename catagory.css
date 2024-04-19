@@ -1,0 +1,101 @@
+#Q1{
+   margin-left: 70px;
+    border: 2px solid black;
+    margin-bottom: 10px;
+    height: 100vh;
+    scroll-snap-align: center;
+    height: 100vh; 
+}
+#Q2{
+    margin-left: 70px;
+    border: 2px solid black;
+    margin-bottom: 10px;
+    height: 100vh;
+    scroll-snap-align: center;
+    height: 100vh;
+}
+#Q3{
+    margin-left: 70px;
+    border: 2px solid black;
+    margin-bottom: 10px;
+    height: 100vh;
+    scroll-snap-align: center;
+    height: 100vh;
+}
+#Q4{
+    margin-left: 70px;
+    border: 2px solid black;
+    margin-bottom: 10px;
+     
+    height: 100vh;
+    scroll-snap-align: center;
+    height: 100vh;
+}
+#Q5{
+    margin-left: 70px;
+    border: 2px solid black;
+    margin-bottom: 10px;
+    height: 100vh;
+    scroll-snap-align: center;
+    height: 100vh;
+}
+#Q6{
+    margin-left: 70px;
+    border: 2px solid black;
+    margin-bottom: 10px;
+    height: 100vh;
+    scroll-snap-align: center;
+    height: 100vh; 
+}
+#Q7{
+    margin-left: 70px;
+    border: 2px solid black;
+    margin-bottom: 10px;
+    height: 100vh;
+    scroll-snap-align: center;
+    height: 100vh;
+}
+#Q8{
+    margin-left: 70px;
+    border: 2px solid black;
+    margin-bottom: 10px;
+    height: 100vh;
+    scroll-snap-align: center;
+    height: 100vh;
+}
+#Q9{
+    margin-left: 70px;
+    border: 2px solid black;
+    margin-bottom: 10px;
+     
+    height: 100vh;
+    scroll-snap-align: center;
+    height: 100vh;
+}
+#Q10{
+    margin-left: 70px;
+    border: 2px solid black;
+    margin-bottom: 10px;
+    height: 100vh;
+    scroll-snap-align: center;
+    height: 100vh;
+}
+#section{
+    overflow: auto;
+    scroll-snap-type: y mandatory;
+    height: 100vh;
+}
+#nav{
+  position: fixed;  
+  display: inline;
+  background-color: antiquewhite;
+  padding: 10px;
+  position: top;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  
+}
+#Q{
+    margin-bottom: 65px;
+}

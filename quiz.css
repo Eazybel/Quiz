@@ -8,10 +8,10 @@
     height: 450px;
     margin-left: 800px;
     margin-top: 150px;
-    box-shadow: 1px 10px 1000px 20px black;
+    box-shadow: 1px 10px 1000px 20px rgb(229, 201, 201);
     }
     .div:hover{
-        box-shadow: 1px 10px 1000px 20px black;
+        box-shadow: 1px 10px 1000px 20px rgb(236, 165, 165);
         
         }
     .link:hover{
@@ -43,3 +43,37 @@
     #para{
         text-align: center;
     }
+    .bn16 {
+        margin-left: 860px;
+        margin-top: 20px;
+        font-family: lato,sans-serif;
+        font-weight: bold;
+        font-size: 1em;
+        letter-spacing: 0.1em;
+        text-decoration: none;
+        color: #4e4730;
+        display: inline-block;
+        padding: 10px 40px 10px 40px;
+        position: relative;
+        border: 3px solid #2b3b4b;
+        border-radius: 25px;
+      }
+      .bn16:hover {
+        margin-left: 860px;
+        margin-top: 20px;
+        font-family: lato,sans-serif;
+        font-weight: bold;
+        font-size: 1em;
+        letter-spacing: 0.1em;
+        text-decoration: none;
+        color: #080704;
+        display: inline-block;
+        padding: 10px 40px 10px 40px;
+        position: relative;
+        border: 3px solid #fa5c5c;
+        border-radius: 25px;
+        width: 100px;
+      }
+      body{
+        background-color: #dbc489;
+      }
