@@ -1,0 +1,124 @@
+#Q1{
+   margin-left: 70px;
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+    border-left: 2px solid black;
+    margin-bottom: 20px;
+    height: 100vh;
+    scroll-snap-align: center;
+    height: 100vh;
+    border-radius: 10px; 
+  
+}
+#Q2{
+    margin-left: 70px;
+    border: 2px solid black;
+    margin-bottom: 10px;
+    height: 100vh;
+    scroll-snap-align: center;
+    height: 100vh;
+    border-radius: 10px;
+}
+#Q3{
+    margin-left: 70px;
+    border: 2px solid black;
+    margin-bottom: 10px;
+    height: 100vh;
+    scroll-snap-align: center;
+    height: 100vh;
+    border-radius: 10px;
+}
+#Q4{
+    margin-left: 70px;
+    border: 2px solid black;
+    margin-bottom: 10px;
+     
+    height: 100vh;
+    scroll-snap-align: center;
+    height: 100vh;
+    border-radius: 10px;
+}
+#Q5{
+    margin-left: 70px;
+    border: 2px solid black;
+    margin-bottom: 10px;
+    height: 100vh;
+    scroll-snap-align: center;
+    height: 100vh;
+    border-radius: 10px;
+}
+#Q6{
+    margin-left: 70px;
+    border: 2px solid black;
+    margin-bottom: 10px;
+    height: 100vh;
+    scroll-snap-align: center;
+    height: 100vh;
+    border-radius: 10px; 
+}
+#Q7{
+    margin-left: 70px;
+    border: 2px solid black;
+    margin-bottom: 10px;
+    height: 100vh;
+    scroll-snap-align: center;
+    height: 100vh;
+    border-radius: 10px;
+}
+#Q8{
+    margin-left: 70px;
+    border: 2px solid black;
+    margin-bottom: 10px;
+    height: 100vh;
+    scroll-snap-align: center;
+    height: 100vh;
+    border-radius: 10px;
+}
+#Q9{
+    margin-left: 70px;
+    border: 2px solid black;
+    margin-bottom: 10px;
+     
+    height: 100vh;
+    scroll-snap-align: center;
+    height: 100vh;
+    border-radius: 10px;
+}
+#Q10{
+    margin-left: 70px;
+    border: 2px solid black;
+    margin-bottom: 10px;
+    height: 100vh;
+    scroll-snap-align: center;
+    height: 100vh;
+    border-radius: 10px;
+}
+#section{
+    overflow-y: auto;
+    scroll-snap-type: y mandatory;
+    height: 100vh;
+    top: 0;
+}
+#nav{
+  position: fixed;  
+  display: inline;
+  background-color: antiquewhite;
+  padding: 10px;
+  position: top;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  
+}
+#Q{
+    margin-bottom: 65px;
+}
+#up{
+    border: 2px solid black;
+    margin-top: 40px;
+    border-radius: 10px;
+}
+#down{
+    border: 2px solid rgb(0, 0, 0);
+    margin-top: 850px;
+}
