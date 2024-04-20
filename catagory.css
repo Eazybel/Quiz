@@ -16,5 +16,13 @@ border-radius: 20px;
 margin: auto;
 margin-top: 8%;
 text-align: center;
-
+width: 200px;
+height: 50px;
 }
+#btn{
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+    font-size: large;
+    font-weight: bold;
+    }
