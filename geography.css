@@ -1,8 +1,8 @@
 #Q1{
    margin-left: 70px;
-    border-bottom: 2px solid black;
-    border-right: 2px solid black;
-    border-left: 2px solid black;
+    border-bottom: 2px dotted black;
+    border-right: 2px dotted black;
+    border-left: 2px dotted black;
     margin-bottom: 20px;
     height: 100vh;
     scroll-snap-align: center;
@@ -13,7 +13,7 @@
 }
 #Q2{
     margin-left: 70px;
-    border: 2px solid black;
+    border: 2px dotted black;
     margin-bottom: 10px;
     height: 100vh;
     scroll-snap-align: center;
@@ -22,7 +22,7 @@
 }
 #Q3{
     margin-left: 70px;
-    border: 2px solid black;
+    border: 2px dotted black;
     margin-bottom: 10px;
     height: 100vh;
     scroll-snap-align: center;
@@ -31,7 +31,7 @@
 }
 #Q4{
     margin-left: 70px;
-    border: 2px solid black;
+    border: 2px dotted black;
     margin-bottom: 10px;
      
     height: 100vh;
@@ -41,7 +41,7 @@
 }
 #Q5{
     margin-left: 70px;
-    border: 2px solid black;
+    border: 2px dotted black;
     margin-bottom: 10px;
     height: 100vh;
     scroll-snap-align: center;
@@ -50,7 +50,7 @@
 }
 #Q6{
     margin-left: 70px;
-    border: 2px solid black;
+    border: 2px dotted black;
     margin-bottom: 10px;
     height: 100vh;
     scroll-snap-align: center;
@@ -59,7 +59,7 @@
 }
 #Q7{
     margin-left: 70px;
-    border: 2px solid black;
+    border: 2px dotted black;
     margin-bottom: 10px;
     height: 100vh;
     scroll-snap-align: center;
@@ -68,7 +68,7 @@
 }
 #Q8{
     margin-left: 70px;
-    border: 2px solid black;
+    border: 2px dotted black;
     margin-bottom: 10px;
     height: 100vh;
     scroll-snap-align: center;
@@ -77,7 +77,7 @@
 }
 #Q9{
     margin-left: 70px;
-    border: 2px solid black;
+    border: 2px dotted black;
     margin-bottom: 10px;
      
     height: 100vh;
@@ -87,7 +87,7 @@
 }
 #Q10{
     margin-left: 70px;
-    border: 2px solid black;
+    border: 2px dotted black;
     margin-bottom: 10px;
     height: 100vh;
     scroll-snap-align: center;
@@ -103,7 +103,7 @@
 #nav{
   position: fixed;  
   display: inline;
-  background-color: antiquewhite;
+  background-color: rgb(98, 250, 131);
   padding: 10px;
   position: top;
   height: 100vh;

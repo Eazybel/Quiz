@@ -13,30 +13,30 @@ const b8=document.getElementById("b8")
 const c9=document.getElementById("c9")
 const d10=document.getElementById("d10")
 const train=document.getElementById("train")
-var answer=0
+let answer=0
 
     if (a1.checked) {
         answer=answer+1
-    } else if(c2.checked){
+    }
+      if(c2.checked){
         answer=answer+1
     }if (b3.checked) {
         answer=answer+1
-    } else if(a4.checked){
+    }  if(a4.checked){
         answer=answer+1
     }if (c5.checked) {
         answer=answer+1
-    } else if(c6.checked){
+    }  if(c6.checked){
         answer=answer+1
     }if (b7.checked) {
         answer=answer+1
-    } else if(b8.checked){
+    }  if(b8.checked){
         answer=answer+1
     }if (c9.checked) {
         answer=answer+1
-    } else if(d10.checked){
+    }  if(d10.checked){
         answer=answer+1
     }
-
-next.onclick=function(){
-    train.textContent=answer
-}
+   next.onclick=function(){
+    train.textContent=(answer)
+   }
