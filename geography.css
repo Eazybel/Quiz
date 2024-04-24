@@ -158,3 +158,8 @@
 #gc1{
     padding-left: 500px;
 }
+#train{
+    font-size: larger;
+    position: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+}
