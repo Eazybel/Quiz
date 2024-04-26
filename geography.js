@@ -14,7 +14,7 @@ const c9=document.getElementById("c9")
 const d10=document.getElementById("d10")
 const train=document.getElementById("train")
 let answer=0
-
+next.onclick=function(){
     if (a1.checked) {
         answer=answer+1
     }
@@ -37,6 +37,6 @@ let answer=0
     }  if(d10.checked){
         answer=answer+1
     }
-   next.onclick=function(){
+   
     train.textContent=(answer)
    }
