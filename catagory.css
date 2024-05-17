@@ -1,3 +1,6 @@
+body{
+    background-color: rgb(114, 110, 110);
+}
 #head{
     display: grid;
     justify-content: center;

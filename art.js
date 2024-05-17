@@ -23,9 +23,9 @@ next.onclick=function(){
         answer=answer+1
     }if (c3.checked) {
         answer=answer+1
-    }  if(b4.checked)a
+    }  if(b4.checked){
         answer=answer+1
-    }if (b5.checked) {
+    }if(b5.checked) {
         answer=answer+1
     }  if(c6.checked){
         answer=answer+1

@@ -1,165 +1,168 @@
+body{
+    background-color: rgb(168, 153, 153);
+}
 #Q1{
-    margin-left: 70px;
-     border-bottom: 2px dotted black;
-     border-right: 2px dotted black;
-     border-left: 2px dotted black;
-     margin-bottom: 20px;
-     height: 100vh;
-     scroll-snap-align: center;
-     height: 100vh;
-     margin-top: 40px;
-     
- 
- }
- #Q2{
-     margin-left: 70px;
-     border: 2px dotted black;
-     margin-bottom: 10px;
-     height: 100vh;
-     scroll-snap-align: center;
-     height: 100vh;
-     border-radius: 10px;
- }
- #Q3{
-     margin-left: 70px;
-     border: 2px dotted black;
-     margin-bottom: 10px;
-     height: 100vh;
-     scroll-snap-align: center;
-     height: 100vh;
-     border-radius: 10px;
- }
- #Q4{
-     margin-left: 70px;
-     border: 2px dotted black;
-     margin-bottom: 10px;
-      
-     height: 100vh;
-     scroll-snap-align: center;
-     height: 100vh;
-     border-radius: 10px;
- }
- #Q5{
-     margin-left: 70px;
-     border: 2px dotted black;
-     margin-bottom: 10px;
-     height: 100vh;
-     scroll-snap-align: center;
-     height: 100vh;
-     border-radius: 10px;
- }
- #Q6{
-     margin-left: 70px;
-     border: 2px dotted black;
-     margin-bottom: 10px;
-     height: 100vh;
-     scroll-snap-align: center;
-     height: 100vh;
-     border-radius: 10px; 
- }
- #Q7{
-     margin-left: 70px;
-     border: 2px dotted black;
-     margin-bottom: 10px;
-     height: 100vh;
-     scroll-snap-align: center;
-     height: 100vh;
-     border-radius: 10px;
- }
- #Q8{
-     margin-left: 70px;
-     border: 2px dotted black;
-     margin-bottom: 10px;
-     height: 100vh;
-     scroll-snap-align: center;
-     height: 100vh;
-     border-radius: 10px;
- }
- #Q9{
-     margin-left: 70px;
-     border: 2px dotted black;
-     margin-bottom: 10px;
-      
-     height: 100vh;
-     scroll-snap-align: center;
-     height: 100vh;
-     border-radius: 10px;
- }
- #Q10{
-     margin-left: 70px;
-     border: 2px dotted black;
-     margin-bottom: 10px;
-     height: 100vh;
-     scroll-snap-align: center;
-     height: 100vh;
-     border-radius: 10px;
- }
- #section{
-     overflow-y: auto;
-     scroll-snap-type: y mandatory;
-     height: 100vh;
-     top: 0;
- }
- #nav{
-   position: fixed;  
-   display: inline;
-   background-color: rgb(98, 250, 131);
-   padding: 10px;
-   position: top;
-   height: 100vh;
-   top: 0;
-   left: 0;
-   
- }
- #Q{
-     margin-bottom: 65px;
- }
- #up{
+   margin-left: 70px;
+    border-bottom: 2px dotted black;
+    border-right: 2px dotted black;
+    border-left: 2px dotted black;
+    margin-bottom: 20px;
+    height: 100vh;
+    scroll-snap-align: center;
+    height: 100vh;
+    margin-top: 40px;
     
-     margin-top: 40px;
-     border-radius: 10px;
- }
- #down{
+
+}
+#Q2{
+    margin-left: 70px;
+    border: 2px dotted black;
+    margin-bottom: 10px;
+    height: 100vh;
+    scroll-snap-align: center;
+    height: 100vh;
+    border-radius: 10px;
+}
+#Q3{
+    margin-left: 70px;
+    border: 2px dotted black;
+    margin-bottom: 10px;
+    height: 100vh;
+    scroll-snap-align: center;
+    height: 100vh;
+    border-radius: 10px;
+}
+#Q4{
+    margin-left: 70px;
+    border: 2px dotted black;
+    margin-bottom: 10px;
      
-     margin-top: 850px;
- }
- #head{
-     width: 500px;
-     height: 75px;
-     background-color: rgb(229, 226, 233);
-     top: 0;
-     position: fixed;
-     margin-left: 750px;
-     text-align: center;
-     border-radius: 10px;
+    height: 100vh;
+    scroll-snap-align: center;
+    height: 100vh;
+    border-radius: 10px;
+}
+#Q5{
+    margin-left: 70px;
+    border: 2px dotted black;
+    margin-bottom: 10px;
+    height: 100vh;
+    scroll-snap-align: center;
+    height: 100vh;
+    border-radius: 10px;
+}
+#Q6{
+    margin-left: 70px;
+    border: 2px dotted black;
+    margin-bottom: 10px;
+    height: 100vh;
+    scroll-snap-align: center;
+    height: 100vh;
+    border-radius: 10px; 
+}
+#Q7{
+    margin-left: 70px;
+    border: 2px dotted black;
+    margin-bottom: 10px;
+    height: 100vh;
+    scroll-snap-align: center;
+    height: 100vh;
+    border-radius: 10px;
+}
+#Q8{
+    margin-left: 70px;
+    border: 2px dotted black;
+    margin-bottom: 10px;
+    height: 100vh;
+    scroll-snap-align: center;
+    height: 100vh;
+    border-radius: 10px;
+}
+#Q9{
+    margin-left: 70px;
+    border: 2px dotted black;
+    margin-bottom: 10px;
+     
+    height: 100vh;
+    scroll-snap-align: center;
+    height: 100vh;
+    border-radius: 10px;
+}
+#Q10{
+    margin-left: 70px;
+    border: 2px dotted black;
+    margin-bottom: 10px;
+    height: 100vh;
+    scroll-snap-align: center;
+    height: 100vh;
+    border-radius: 10px;
+}
+#section{
+    overflow-y: auto;
+    scroll-snap-type: y mandatory;
+    height: 100vh;
+    top: 0;
+}
+#nav{
+  position: fixed;  
+  display: inline;
+  background-color: rgb(219, 223, 188);
+  padding: 10px;
+  position: top;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  
+}
+#Q{
+    margin-bottom: 65px;
+}
+#up{
    
- }
- .prev{
-     margin-left: 580px;
-     border-radius:40px 0 0 20px ;
-     
- }
- .next{
-     margin-left: 1320px;
-     border-radius:0 40px 20px 0 ;
-     
- }
- .prev,.next{
-     width: 100px;
-     height: 30px;
-     background-color: rgba(241, 226, 155, 0.568);
-     position:fixed;
- }
- #gq1{
-     padding-top: 200px;
-     padding-left: 500px;
-     padding-bottom: 50px;
- }
- #gc1{
-     padding-left: 500px;
- }
- #train{
-     font-size: larger;
-     position: fixed;
-     font-family: Arial, Helvetica, sans-serif;
- }
+    margin-top: 40px;
+    border-radius: 10px;
+}
+#down{
+    
+    margin-top: 850px;
+}
+#head{
+    width: 500px;
+    height: 75px;
+    background-color: rgb(229, 226, 233);
+    top: 0;
+    position: fixed;
+    margin-left: 750px;
+    text-align: center;
+    border-radius: 10px;
+  
+}
+.prev{
+    margin-left: 580px;
+    border-radius:40px 0 0 20px ;
+    
+}
+.next{
+    margin-left: 1320px;
+    border-radius:0 40px 20px 0 ;
+    
+}
+.prev,.next{
+    width: 100px;
+    height: 30px;
+    background-color: rgba(241, 226, 155, 0.568);
+    position:fixed;
+}
+#gq1{
+    padding-top: 200px;
+    padding-left: 500px;
+    padding-bottom: 50px;
+}
+#gc1{
+    padding-left: 500px;
+}
+#train{
+    font-size: larger;
+    position: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+}
