@@ -7,6 +7,8 @@ body{
     text-align: center;
 }
 #catagory{
+display: grid;
+grid-template-columns: 33% 33% 33%;
 margin: auto;
 margin-top: 8%;
 width: 40%;
@@ -26,6 +28,81 @@ border-radius: 20px;
     transform: translateY(-5px);
     }
 
+@media screen and (max-width:750px) {
+    #catagory{
+        display: grid;
+        grid-template-columns: 33% 33% 33%;
+        background-color: bisque;
+        margin: auto;
+        margin-top: 8%;
+        max-width: 80px;
+        max-height: 10px;
+        text-align: center;
+        padding: 100px;
+        box-shadow: 0px 0px 60px 10px rgb(147, 189, 228);
+        border-radius: 20px;
+        }
+        #catagory:hover{
+            margin: auto;
+            margin-top: 8%;
+            width: 40%;
+            text-align: center;
+            padding: 100px;
+            box-shadow: 0px 0px 60px 10px rgb(211, 164, 211);
+            border-radius: 20px;
+            transform: translateY(-5px);
+            }
+            #btnd{
+                margin-left: 800px;
+                margin-top: 8%;
+                text-align: center;
+                width: 200px;
+                height: 50px;
+                border-radius: 10px;
+                border: none;
+                font-size: large;
+                font-weight:100;
+                background-color: rgb(244, 201, 252);
+                    }
+                    #btnd:hover{
+                        width: 200px;
+                        height: 50px;
+                        border-radius: 15px;
+                        border: none;
+                        font-size: large;
+                        font-weight: bold;
+                        background-color: rgb(220, 235, 164);
+                        box-shadow: 0px 0px 60px 10px rgb(218, 237, 255);
+                        transform: translateX(10px);
+                        animation-timing-function: linear;
+                    }
+            .radio{
+                display: none;
+            }
+            .radio:checked +#label{
+                background-color: rgb(219, 184, 184);
+                padding: 10px;
+                border-radius: 3px;
+                background-size: 3px;
+                background-size: 3px;
+            }
+           #label{
+            width: 30px;
+            padding: 10px;
+            background-color: rgb(255, 255, 255);
+            font-family:'Courier New', Courier, monospace;
+            margin: 2%;
+             
+           }
+           #label:hover{
+            background-color: rgb(219, 184, 184);
+                padding: 10px;
+                border-radius: 3px;
+                background-size: 3px;
+                background-size: 3px;
+            
+           }     
+}
     #btnd{
         margin-left: 800px;
         margin-top: 8%;
@@ -52,6 +129,7 @@ border-radius: 20px;
             }
     .radio{
         display: none;
+        
     }
     .radio:checked +#label{
         background-color: rgb(219, 184, 184);
@@ -64,10 +142,12 @@ border-radius: 20px;
     padding: 10px;
     background-color: rgb(255, 255, 255);
     font-family:'Courier New', Courier, monospace;
+    margin: 2%;
     
    }
    #label:hover{
     background-color: rgb(219, 184, 184);
+    
         padding: 10px;
         border-radius: 3px;
         background-size: 3px;
