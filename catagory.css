@@ -1,160 +1,308 @@
-body{
-    background-color: rgb(114, 110, 110);
+@media screen and (max-width:600px){
+    body{
+        background-color: rgb(181, 177, 177);
+    }
+    #head{
+        display: grid;
+        justify-content: center;
+        text-align: center;
+    }
+  #catagory{
+            display: grid;
+            grid-template-columns: 33% 33% 33%;
+            background-color: rgb(237, 150, 43);
+            margin: auto;
+            box-shadow: 0px 0px 60px 10px rgb(147, 189, 228);
+            border-radius: 20px;
+            height: 200px;
+            }
+            #catagory:hover{
+                margin: auto;
+                margin-top: 8%;
+                width: 40%;
+                text-align: center;
+                padding: 100px;
+                box-shadow: 0px 0px 60px 10px rgb(211, 164, 211);
+                border-radius: 20px;
+                transform: translateY(-5px);
+                }
+                #btnd{
+                    margin-left: 800px;
+                    margin-top: 8%;
+                    text-align: center;
+                    width: 200px;
+                    height: 50px;
+                    border-radius: 10px;
+                    border: none;
+                    font-size: large;
+                    font-weight:100;
+                    background-color: rgb(244, 201, 252);
+                        }
+                        #btnd:hover{
+                            width: 200px;
+                            height: 50px;
+                            border-radius: 15px;
+                            border: none;
+                            font-size: large;
+                            font-weight: bold;
+                            background-color: rgb(220, 235, 164);
+                            box-shadow: 0px 0px 60px 10px rgb(218, 237, 255);
+                            transform: translateX(10px);
+                            animation-timing-function: linear;
+                        }
+                .radio{
+                    display: none;
+                }
+                .radio:checked +#label{
+                    background-color: rgb(219, 184, 184);
+                    padding: 10px;
+                    border-radius: 3px;
+                    background-size: 3px;
+                    background-size: 3px;
+                }
+               #label{
+                width: 30px;
+                padding: 10px;
+                background-color: rgb(255, 255, 255);
+                font-family:'Courier New', Courier, monospace;
+                margin: 2%;
+                 
+               }
+               #label:hover{
+                background-color: rgb(219, 184, 184);
+                    padding: 10px;
+                    border-radius: 3px;
+                    background-size: 3px;
+                    background-size: 3px;
+                
+               }     
+    
+        #btnd{
+            margin-left: 800px;
+            margin-top: 8%;
+            text-align: center;
+            width: 200px;
+            height: 50px;
+            border-radius: 10px;
+            border: none;
+            font-size: large;
+            font-weight:100;
+            background-color: rgb(244, 201, 252);
+                }
+                #btnd:hover{
+                    width: 200px;
+                    height: 50px;
+                    border-radius: 15px;
+                    border: none;
+                    font-size: large;
+                    font-weight: bold;
+                    background-color: rgb(220, 235, 164);
+                    box-shadow: 0px 0px 60px 10px rgb(218, 237, 255);
+                    transform: translateX(10px);
+                    animation-timing-function: linear;
+                }
+        .radio{
+            display: none;
+            
+        }
+        .radio:checked +#label{
+            background-color: rgb(219, 184, 184);
+            padding: 10px;
+            border-radius: 3px;
+            background-size: 3px;
+            background-size: 3px;
+        }
+       #label{
+        background-color: rgb(255, 255, 255);
+        font-family:'Courier New', Courier, monospace;
+        margin: 10%;
+        width: 70px;
+        height: 10px;
+        font-size: 14px;
+        border-radius: 5px;
+        
+       }
+       #label:hover{
+        background-color: rgb(219, 184, 184);
+        
+            padding: 10px;
+            border-radius: 3px;
+            background-size: 3px;
+            background-size: 3px;
+        
+       }
+       #h2,#h1{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+       }
+      
 }
-#head{
+
+
+
+
+
+
+
+
+@media screen and (min-width:650px){
+    body{
+        background-color: rgb(114, 110, 110);
+    }
+    #head{
+        display: grid;
+        justify-content: center;
+        text-align: center;
+    }
+    #catagory{
     display: grid;
-    justify-content: center;
-    text-align: center;
-}
-#catagory{
-display: grid;
-grid-template-columns: 33% 33% 33%;
-margin: auto;
-margin-top: 8%;
-width: 40%;
-text-align: center;
-padding: 100px;
-box-shadow: 0px 0px 60px 10px rgb(147, 189, 228);
-border-radius: 20px;
-}
-#catagory:hover{
+    grid-template-columns: 33% 33% 33%;
     margin: auto;
     margin-top: 8%;
     width: 40%;
     text-align: center;
     padding: 100px;
-    box-shadow: 0px 0px 60px 10px rgb(211, 164, 211);
+    box-shadow: 0px 0px 60px 10px rgb(147, 189, 228);
     border-radius: 20px;
-    transform: translateY(-5px);
     }
-
-@media screen and (max-width:750px) {
-    #catagory{
-        display: grid;
-        grid-template-columns: 33% 33% 33%;
-        background-color: bisque;
+    #catagory:hover{
         margin: auto;
         margin-top: 8%;
-        max-width: 80px;
-        max-height: 10px;
+        width: 40%;
         text-align: center;
         padding: 100px;
-        box-shadow: 0px 0px 60px 10px rgb(147, 189, 228);
+        box-shadow: 0px 0px 60px 10px rgb(211, 164, 211);
         border-radius: 20px;
+        transform: translateY(-5px);
         }
-        #catagory:hover{
+    
+    
+        #catagory{
+            display: grid;
+            grid-template-columns: 33% 33% 33%;
+            background-color: bisque;
             margin: auto;
             margin-top: 8%;
-            width: 40%;
+            max-width: 80px;
+            max-height: 10px;
             text-align: center;
             padding: 100px;
-            box-shadow: 0px 0px 60px 10px rgb(211, 164, 211);
+            box-shadow: 0px 0px 60px 10px rgb(147, 189, 228);
             border-radius: 20px;
-            transform: translateY(-5px);
             }
-            #btnd{
-                margin-left: 800px;
+            #catagory:hover{
+                margin: auto;
                 margin-top: 8%;
+                width: 40%;
                 text-align: center;
-                width: 200px;
-                height: 50px;
-                border-radius: 10px;
-                border: none;
-                font-size: large;
-                font-weight:100;
-                background-color: rgb(244, 201, 252);
-                    }
-                    #btnd:hover{
-                        width: 200px;
-                        height: 50px;
-                        border-radius: 15px;
-                        border: none;
-                        font-size: large;
-                        font-weight: bold;
-                        background-color: rgb(220, 235, 164);
-                        box-shadow: 0px 0px 60px 10px rgb(218, 237, 255);
-                        transform: translateX(10px);
-                        animation-timing-function: linear;
-                    }
-            .radio{
-                display: none;
-            }
-            .radio:checked +#label{
+                padding: 100px;
+                box-shadow: 0px 0px 60px 10px rgb(211, 164, 211);
+                border-radius: 20px;
+                transform: translateY(-5px);
+                }
+                #btnd{
+                    margin-left: 800px;
+                    margin-top: 8%;
+                    text-align: center;
+                    width: 200px;
+                    height: 50px;
+                    border-radius: 10px;
+                    border: none;
+                    font-size: large;
+                    font-weight:100;
+                    background-color: rgb(244, 201, 252);
+                        }
+                        #btnd:hover{
+                            width: 200px;
+                            height: 50px;
+                            border-radius: 15px;
+                            border: none;
+                            font-size: large;
+                            font-weight: bold;
+                            background-color: rgb(220, 235, 164);
+                            box-shadow: 0px 0px 60px 10px rgb(218, 237, 255);
+                            transform: translateX(10px);
+                            animation-timing-function: linear;
+                        }
+                .radio{
+                    display: none;
+                }
+                .radio:checked +#label{
+                    background-color: rgb(219, 184, 184);
+                    padding: 10px;
+                    border-radius: 3px;
+                    background-size: 3px;
+                    background-size: 3px;
+                }
+               #label{
+                width: 30px;
+                padding: 10px;
+                background-color: rgb(255, 255, 255);
+                font-family:'Courier New', Courier, monospace;
+                margin: 2%;
+                 
+               }
+               #label:hover{
                 background-color: rgb(219, 184, 184);
-                padding: 10px;
-                border-radius: 3px;
-                background-size: 3px;
-                background-size: 3px;
-            }
-           #label{
-            width: 30px;
-            padding: 10px;
-            background-color: rgb(255, 255, 255);
-            font-family:'Courier New', Courier, monospace;
-            margin: 2%;
-             
-           }
-           #label:hover{
-            background-color: rgb(219, 184, 184);
-                padding: 10px;
-                border-radius: 3px;
-                background-size: 3px;
-                background-size: 3px;
+                    padding: 10px;
+                    border-radius: 3px;
+                    background-size: 3px;
+                    background-size: 3px;
+                
+               }     
+    
+        #btnd{
+            margin-left: 800px;
+            margin-top: 8%;
+            text-align: center;
+            width: 200px;
+            height: 50px;
+            border-radius: 10px;
+            border: none;
+            font-size: large;
+            font-weight:100;
+            background-color: rgb(244, 201, 252);
+                }
+                #btnd:hover{
+                    width: 200px;
+                    height: 50px;
+                    border-radius: 15px;
+                    border: none;
+                    font-size: large;
+                    font-weight: bold;
+                    background-color: rgb(220, 235, 164);
+                    box-shadow: 0px 0px 60px 10px rgb(218, 237, 255);
+                    transform: translateX(10px);
+                    animation-timing-function: linear;
+                }
+        .radio{
+            display: none;
             
-           }     
-}
-    #btnd{
-        margin-left: 800px;
-        margin-top: 8%;
-        text-align: center;
-        width: 200px;
-        height: 50px;
-        border-radius: 10px;
-        border: none;
-        font-size: large;
-        font-weight:100;
-        background-color: rgb(244, 201, 252);
-            }
-            #btnd:hover{
-                width: 200px;
-                height: 50px;
-                border-radius: 15px;
-                border: none;
-                font-size: large;
-                font-weight: bold;
-                background-color: rgb(220, 235, 164);
-                box-shadow: 0px 0px 60px 10px rgb(218, 237, 255);
-                transform: translateX(10px);
-                animation-timing-function: linear;
-            }
-    .radio{
-        display: none;
+        }
+        .radio:checked +#label{
+            background-color: rgb(219, 184, 184);
+            padding: 10px;
+            border-radius: 3px;
+            background-size: 3px;
+            background-size: 3px;
+        }
+       #label{
+        padding: 10px;
+        background-color: rgb(255, 255, 255);
+        font-family:'Courier New', Courier, monospace;
+        margin: 2%;
         
-    }
-    .radio:checked +#label{
+       }
+       #label:hover{
         background-color: rgb(219, 184, 184);
-        padding: 10px;
-        border-radius: 3px;
-        background-size: 3px;
-        background-size: 3px;
-    }
-   #label{
-    padding: 10px;
-    background-color: rgb(255, 255, 255);
-    font-family:'Courier New', Courier, monospace;
-    margin: 2%;
-    
-   }
-   #label:hover{
-    background-color: rgb(219, 184, 184);
-    
-        padding: 10px;
-        border-radius: 3px;
-        background-size: 3px;
-        background-size: 3px;
-    
-   }
-   #h2,#h1{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-   }
-  
+        
+            padding: 10px;
+            border-radius: 3px;
+            background-size: 3px;
+            background-size: 3px;
+        
+       }
+       #h2,#h1{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+       }
+      
+}
