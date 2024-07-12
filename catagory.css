@@ -3,6 +3,7 @@
         background-color: rgb(181, 177, 177);
     }
     #head{
+        margin-top: 10%;
         display: grid;
         justify-content: center;
         text-align: center;
@@ -16,72 +17,11 @@
             border-radius: 20px;
             height: 200px;
             }
-            #catagory:hover{
-                margin: auto;
-                margin-top: 8%;
-                width: 40%;
-                text-align: center;
-                padding: 100px;
-                box-shadow: 0px 0px 60px 10px rgb(211, 164, 211);
-                border-radius: 20px;
-                transform: translateY(-5px);
-                }
-                #btnd{
-                    margin-left: 800px;
-                    margin-top: 8%;
-                    text-align: center;
-                    width: 200px;
-                    height: 50px;
-                    border-radius: 10px;
-                    border: none;
-                    font-size: large;
-                    font-weight:100;
-                    background-color: rgb(244, 201, 252);
-                        }
-                        #btnd:hover{
-                            width: 200px;
-                            height: 50px;
-                            border-radius: 15px;
-                            border: none;
-                            font-size: large;
-                            font-weight: bold;
-                            background-color: rgb(220, 235, 164);
-                            box-shadow: 0px 0px 60px 10px rgb(218, 237, 255);
-                            transform: translateX(10px);
-                            animation-timing-function: linear;
-                        }
-                .radio{
-                    display: none;
-                }
-                .radio:checked +#label{
-                    background-color: rgb(219, 184, 184);
-                    padding: 10px;
-                    border-radius: 3px;
-                    background-size: 3px;
-                    background-size: 3px;
-                }
-               #label{
-                width: 30px;
-                padding: 10px;
-                background-color: rgb(255, 255, 255);
-                font-family:'Courier New', Courier, monospace;
-                margin: 2%;
-                 
-               }
-               #label:hover{
-                background-color: rgb(219, 184, 184);
-                    padding: 10px;
-                    border-radius: 3px;
-                    background-size: 3px;
-                    background-size: 3px;
-                
-               }     
-    
         #btnd{
-            margin-left: 800px;
-            margin-top: 8%;
+            margin-left: 35%;
+            margin-top: 15%;
             text-align: center;
-            width: 200px;
+            width: 100px;
             height: 50px;
             border-radius: 10px;
             border: none;
@@ -89,46 +29,34 @@
             font-weight:100;
             background-color: rgb(244, 201, 252);
                 }
-                #btnd:hover{
-                    width: 200px;
-                    height: 50px;
-                    border-radius: 15px;
-                    border: none;
-                    font-size: large;
-                    font-weight: bold;
-                    background-color: rgb(220, 235, 164);
-                    box-shadow: 0px 0px 60px 10px rgb(218, 237, 255);
-                    transform: translateX(10px);
-                    animation-timing-function: linear;
-                }
+               
         .radio{
             display: none;
             
         }
         .radio:checked +#label{
             background-color: rgb(219, 184, 184);
-            padding: 10px;
-            border-radius: 3px;
-            background-size: 3px;
-            background-size: 3px;
         }
        #label{
         background-color: rgb(255, 255, 255);
         font-family:'Courier New', Courier, monospace;
         margin: 10%;
-        width: 70px;
-        height: 10px;
+        width: 80px;
+        height: 30px;
         font-size: 14px;
+        font-weight: bolder;
         border-radius: 5px;
         
        }
-       #label:hover{
-        background-color: rgb(219, 184, 184);
-        
-            padding: 10px;
-            border-radius: 3px;
-            background-size: 3px;
-            background-size: 3px;
+       .labelfb{
+        background-color: rgb(255, 255, 255);
+        font-family:'Courier New', Courier, monospace;
+        margin: 10%;
+        width: 80px;
+        height: 30px;
+        font-size: 14px;
+        font-weight: bolder;
+        border-radius: 5px;
         
        }
        #h2,#h1{
@@ -174,8 +102,6 @@
         border-radius: 20px;
         transform: translateY(-5px);
         }
-    
-    
         #catagory{
             display: grid;
             grid-template-columns: 33% 33% 33%;
@@ -242,65 +168,15 @@
                  
                }
                #label:hover{
-                background-color: rgb(219, 184, 184);
+                    background-color: rgb(219, 184, 184);
                     padding: 10px;
                     border-radius: 3px;
                     background-size: 3px;
                     background-size: 3px;
-                
+                    
                }     
     
-        #btnd{
-            margin-left: 800px;
-            margin-top: 8%;
-            text-align: center;
-            width: 200px;
-            height: 50px;
-            border-radius: 10px;
-            border: none;
-            font-size: large;
-            font-weight:100;
-            background-color: rgb(244, 201, 252);
-                }
-                #btnd:hover{
-                    width: 200px;
-                    height: 50px;
-                    border-radius: 15px;
-                    border: none;
-                    font-size: large;
-                    font-weight: bold;
-                    background-color: rgb(220, 235, 164);
-                    box-shadow: 0px 0px 60px 10px rgb(218, 237, 255);
-                    transform: translateX(10px);
-                    animation-timing-function: linear;
-                }
-        .radio{
-            display: none;
-            
-        }
-        .radio:checked +#label{
-            background-color: rgb(219, 184, 184);
-            padding: 10px;
-            border-radius: 3px;
-            background-size: 3px;
-            background-size: 3px;
-        }
-       #label{
-        padding: 10px;
-        background-color: rgb(255, 255, 255);
-        font-family:'Courier New', Courier, monospace;
-        margin: 2%;
-        
-       }
-       #label:hover{
-        background-color: rgb(219, 184, 184);
-        
-            padding: 10px;
-            border-radius: 3px;
-            background-size: 3px;
-            background-size: 3px;
-        
-       }
+      
        #h2,#h1{
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
        }
