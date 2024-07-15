@@ -146,6 +146,7 @@
         padding-top: 10vh;
         padding-left: 15vw;
         padding-bottom: 10vh;
+        font-size: 1.5rem;
     }
     #gc1{
         padding-left: 20vw;
@@ -432,13 +433,13 @@
         background-color: rgb(229, 226, 233);
         top: 0;
         position: fixed;
-        margin-left: 33vw;
+        margin-left: 35vw;
         text-align: center;
         border-radius: 10px;
       
     }
     .prev{
-        margin-left: 15vw;
+        margin-left: 20vw;
         border-radius:40px 0 0 20px ;
         
     }
