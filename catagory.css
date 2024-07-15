@@ -63,7 +63,7 @@
        #h2,#h1{
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
        }
-      
+    
 }
 
 
@@ -100,7 +100,6 @@
                     height: 50px;
                     border-radius: 10px;
                     border: none;
-                    font-size: large;
                     font-weight:100;
                     background-color: rgb(204, 57, 230);
                     font-size: 2rem;
@@ -142,8 +141,6 @@
         background-color: rgb(114, 110, 110);
     }
     #head{
-        display: grid;
-        justify-content: center;
         text-align: center;
     }
         #catagory{
@@ -151,9 +148,11 @@
             grid-template-columns: 33% 33% 33%;
             row-gap: 8vh;
             background-color: rgb(167, 48, 68);
-            margin: auto;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: none;
             width: 80vw;
-            height: 55vh;
+            height: 45vh;
             padding: 2vw;
             text-align: center;
             box-shadow: 0px 0px 60px 10px rgb(147, 189, 228);
@@ -195,7 +194,7 @@
                     border-radius: 3px;
                 }
                #label{
-                height: 7vh;
+                height: 10vh;
                 width: 15vw;
                 background-color: rgb(192, 159, 159);
                 margin: auto;

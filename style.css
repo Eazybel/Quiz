@@ -1,0 +1,128 @@
+/* mobile mode for mobile users */
+@media screen and (max-width:600px){
+    #para{
+        text-align: center;
+    }
+    .div{
+        margin-top: 15vh;
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+        border: 2px solid black;
+        width: 85vw;
+        height: 65vh;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .link{
+        height: 5vh;
+        width: 85vw;
+        background-color:rgb(230, 200, 178);
+        border: none;
+    }
+    .bn16{
+        width: 50vw;
+        height: 5vh;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 5vh;
+        background-color: bisque;
+        text-align: center;
+        align-content: center;
+        text-decoration: none;
+        border-radius: 2rex;
+      }
+}
+/* tablet mode for tablet users */
+@media screen and (min-width:620px) and (max-width:992px){
+    .head{
+        text-align: center;
+        padding-top: 5vh;
+        font-size: 4rem;
+    }
+    .break{
+        font-size: 2rem;
+    }
+    .link{
+        height: 5vh;
+        width: 80vw;
+    }
+    .div{
+        padding: auto;
+        margin-top: 15vh;
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+        border: 2px solid black;
+        width: 80vw;
+        height: 70vh;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+    .link{
+        height: 8vh;
+        width: 80vw;
+        background-color:rgb(230, 200, 178);
+        border: none;
+        font-size: 2rem;
+    }
+    .bn16{
+        width: 50vw;
+        height: 5vh;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 5vh;
+        background-color: bisque;
+        text-align: center;
+        align-content: center;
+        text-decoration: none;
+        border-radius: 2rex;
+        font-size: 2rem;
+      }
+}
+/* desktop view mode for desktop users */
+ @media screen and (min-width:1000px) {
+    .head{
+        text-align: center;
+        font-size: 3em;
+        margin-top: none;
+    }
+    .break{
+        font-size: 2em;
+    }
+    .div{
+        padding: auto;
+        margin-top: 6vh;
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+        border: 2px solid black;
+        width: 90vw;
+        height: 80vh;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+    .link{
+        height: 25vh;
+        width: 90vw;
+        background-color:rgb(230, 200, 178);
+        border: none;
+        font-size: 2rem;
+    }
+    .bn16{
+        width: 45vw;
+        height: 28vh;
+        margin-left: auto; 
+        margin-right: auto;
+        margin-top: 3vh;
+        background-color: bisque;
+        text-align: center;
+        align-content: center;
+        text-decoration: none;
+        border-radius: 2rex;
+        font-size: 2rem;
+      }
+
+} 

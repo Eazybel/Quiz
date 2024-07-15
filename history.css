@@ -1,168 +1,477 @@
-body{
-    background-color: rgb(168, 153, 153);
-}
-#Q1{
-   margin-left: 70px;
-    border-bottom: 2px dotted black;
-    border-right: 2px dotted black;
-    border-left: 2px dotted black;
-    margin-bottom: 20px;
-    height: 100vh;
-    scroll-snap-align: center;
-    height: 100vh;
-    margin-top: 40px;
-    
-
-}
-#Q2{
-    margin-left: 70px;
-    border: 2px dotted black;
-    margin-bottom: 10px;
-    height: 100vh;
-    scroll-snap-align: center;
-    height: 100vh;
-    border-radius: 10px;
-}
-#Q3{
-    margin-left: 70px;
-    border: 2px dotted black;
-    margin-bottom: 10px;
-    height: 100vh;
-    scroll-snap-align: center;
-    height: 100vh;
-    border-radius: 10px;
-}
-#Q4{
-    margin-left: 70px;
-    border: 2px dotted black;
-    margin-bottom: 10px;
-     
-    height: 100vh;
-    scroll-snap-align: center;
-    height: 100vh;
-    border-radius: 10px;
-}
-#Q5{
-    margin-left: 70px;
-    border: 2px dotted black;
-    margin-bottom: 10px;
-    height: 100vh;
-    scroll-snap-align: center;
-    height: 100vh;
-    border-radius: 10px;
-}
-#Q6{
-    margin-left: 70px;
-    border: 2px dotted black;
-    margin-bottom: 10px;
-    height: 100vh;
-    scroll-snap-align: center;
-    height: 100vh;
-    border-radius: 10px; 
-}
-#Q7{
-    margin-left: 70px;
-    border: 2px dotted black;
-    margin-bottom: 10px;
-    height: 100vh;
-    scroll-snap-align: center;
-    height: 100vh;
-    border-radius: 10px;
-}
-#Q8{
-    margin-left: 70px;
-    border: 2px dotted black;
-    margin-bottom: 10px;
-    height: 100vh;
-    scroll-snap-align: center;
-    height: 100vh;
-    border-radius: 10px;
-}
-#Q9{
-    margin-left: 70px;
-    border: 2px dotted black;
-    margin-bottom: 10px;
-     
-    height: 100vh;
-    scroll-snap-align: center;
-    height: 100vh;
-    border-radius: 10px;
-}
-#Q10{
-    margin-left: 70px;
-    border: 2px dotted black;
-    margin-bottom: 10px;
-    height: 100vh;
-    scroll-snap-align: center;
-    height: 100vh;
-    border-radius: 10px;
-}
-#section{
-    overflow-y: auto;
-    scroll-snap-type: y mandatory;
-    height: 100vh;
-    top: 0;
-}
-#nav{
-  position: fixed;  
-  display: inline;
-  background-color: rgb(219, 223, 188);
-  padding: 10px;
-  position: top;
-  height: 100vh;
-  top: 0;
-  left: 0;
-  
-}
-#Q{
-    margin-bottom: 65px;
-}
-#up{
+/* mobile mode for mobile users */
+@media screen and (max-width:600px){
+    body{
+        background-color: rgb(168, 153, 153);
+    }
+    #Q1{
+        border-right: 2px dotted black;
+        border-left: 2px dotted black;
+        margin-bottom: 20px;
+        height: 80vh;
+        scroll-snap-align: center;
+        margin-top: 40px;
    
-    margin-top: 40px;
-    border-radius: 10px;
+    }
+    #Q2{ 
+        border-right: 2px dotted black;
+        border-left: 2px dotted black;
+        margin-bottom: 20px;
+        height: 80vh;
+        scroll-snap-align: center;
+        margin-top: 40px;
+         
+    }
+    #Q3{ 
+        border-right: 2px dotted black;
+        border-left: 2px dotted black;
+        margin-bottom: 20px;
+        height: 80vh;
+        scroll-snap-align: center;
+        margin-top: 40px;
+         
+    }
+    #Q4{
+        border-right: 2px dotted black;
+        border-left: 2px dotted black;
+        margin-bottom: 20px;
+        height: 80vh;
+        scroll-snap-align: center;
+        margin-top: 40px;
+         
+    }
+    #Q5{
+        border-right: 2px dotted black;
+        border-left: 2px dotted black;
+        margin-bottom: 20px;
+        height: 80vh;
+        scroll-snap-align: center;
+        margin-top: 40px;
+         
+    }
+    #Q6{
+        border-right: 2px dotted black;
+        border-left: 2px dotted black;
+        margin-bottom: 20px;
+        height: 80vh;
+        scroll-snap-align: center;
+        margin-top: 40px;
+         
+    }
+    #Q7{ 
+        border-right: 2px dotted black;
+        border-left: 2px dotted black;
+        margin-bottom: 20px;
+        height: 80vh;
+        scroll-snap-align: center;
+        margin-top: 40px;
+         
+    }
+    #Q8{ 
+        border-right: 2px dotted black;
+        border-left: 2px dotted black;
+        margin-bottom: 20px;
+        height: 80vh;
+        scroll-snap-align: center;
+        margin-top: 40px;
+         
+    }
+    #Q9{ 
+        border-right: 2px dotted black;
+        border-left: 2px dotted black;
+        margin-bottom: 20px;
+        height: 80vh;
+        scroll-snap-align: center;
+        margin-top: 40px;
+         
+    }
+    #Q10{
+        border-right: 2px dotted black;
+        border-left: 2px dotted black;
+        margin-bottom: 20px;
+        height: 80vh;
+        scroll-snap-align: center;
+        margin-top: 40px;
+         
+    }
+    #section{
+        overflow-y: auto;
+        scroll-snap-type: y mandatory;
+        height: 100vh;
+        top: 0;
+    }
+    #nav{
+      position: fixed;  
+      display: inline;
+      background-color: rgb(219, 223, 188);
+      padding: 1vw;
+      height: 100vh;
+      top: 0;
+      left: 0;
+      
+    }
+    #Q{
+        margin-bottom: 65px;
+    }
+    #up{
+       
+        margin-top: 40px;
+        border-radius: 10px;
+    }
+    #down{
+        
+        margin-top: 850px;
+    }
+    #head{
+        width: 50vw;
+        height: 10vh;
+        background-color: rgb(229, 226, 233);
+        top: 0;
+        position: fixed;
+        margin-left: 27vw;
+        text-align: center;
+        border-radius: 10px;
+      
+    }
+    .prev{
+        margin-left: 11vw;
+        border-radius:40px 0 0 20px ;
+        
+    }
+    .next{
+        margin-left: 78vw;
+        border-radius:0 40px 20px 0 ;
+        
+    }
+    .prev,.next{
+        width: 15vw;
+        height: 30px;
+        background-color: rgba(241, 226, 155, 0.568);
+        position:fixed;
+    }
+    #gq1{
+        padding-top: 10vh;
+        padding-left: 15vw;
+        padding-bottom: 10vh;
+    }
+    #gc1{
+        padding-left: 20vw;
+    }
+    #train{
+        font-size: larger;
+        position: fixed;
+        font-family: Arial, Helvetica, sans-serif;
+    }
 }
-#down{
-    
-    margin-top: 850px;
+
+/* tablet mode for tablet users */
+@media screen and (min-width:620px) and (max-width:992px){
+    body{
+        background-color: rgb(168, 153, 153);
+    }
+    #Q1{
+        border-right: 2px dotted black;
+        border-left: 2px dotted black;
+        margin-bottom: 20px;
+        height: 80vh;
+        scroll-snap-align: center;
+        margin-top: 5vh;
+        font-size: 1.5rem;
+    }
+    #Q2{ 
+        border-right: 2px dotted black;
+        border-left: 2px dotted black;
+        margin-bottom: 20px;
+        height: 80vh;
+        scroll-snap-align: center;
+        margin-top: 40px;
+        font-size: 1.5rem;
+    }
+    #Q3{ 
+        border-right: 2px dotted black;
+        border-left: 2px dotted black;
+        margin-bottom: 20px;
+        height: 80vh;
+        scroll-snap-align: center;
+        margin-top: 40px;
+        font-size: 1.5rem;
+    }
+    #Q4{
+        border-right: 2px dotted black;
+        border-left: 2px dotted black;
+        margin-bottom: 20px;
+        height: 80vh;
+        scroll-snap-align: center;
+        margin-top: 40px;
+         font-size: 1.5rem;
+    }
+    #Q5{
+        border-right: 2px dotted black;
+        border-left: 2px dotted black;
+        margin-bottom: 20px;
+        height: 80vh;
+        scroll-snap-align: center;
+        margin-top: 40px;
+         font-size: 1.5rem;
+    }
+    #Q6{
+        border-right: 2px dotted black;
+        border-left: 2px dotted black;
+        margin-bottom: 20px;
+        height: 80vh;
+        scroll-snap-align: center;
+        margin-top: 40px;
+         font-size: 1.5rem;
+    }
+    #Q7{ 
+        border-right: 2px dotted black;
+        border-left: 2px dotted black;
+        margin-bottom: 20px;
+        height: 80vh;
+        scroll-snap-align: center;
+        margin-top: 40px;
+         font-size: 1.5rem;
+    }
+    #Q8{ 
+        border-right: 2px dotted black;
+        border-left: 2px dotted black;
+        margin-bottom: 20px;
+        height: 80vh;
+        scroll-snap-align: center;
+        margin-top: 40px;
+         font-size: 1.5rem;
+    }
+    #Q9{ 
+        border-right: 2px dotted black;
+        border-left: 2px dotted black;
+        margin-bottom: 20px;
+        height: 80vh;
+        scroll-snap-align: center;
+        margin-top: 40px;
+         font-size: 1.5rem;
+    }
+    #Q10{
+        border-right: 2px dotted black;
+        border-left: 2px dotted black;
+        margin-bottom: 20px;
+        height: 80vh;
+        scroll-snap-align: center;
+        margin-top: 40px;
+         font-size: 1.5rem;
+    }
+    #section{
+        overflow-y: auto;
+        scroll-snap-type: y mandatory;
+        height: 100vh;
+        top: 0;
+    }
+    #nav{
+      position: fixed;  
+      display: inline;
+      background-color: rgb(219, 223, 188);
+      padding: 1vw;
+      height: 100vh;
+      top: 0;
+      left: 0;
+      
+    }
+    #Q{
+        margin-bottom: 65px;
+    }
+    #up{
+       
+        margin-top: 40px;
+        border-radius: 10px;
+    }
+    #down{
+        
+        margin-top: 850px;
+    }
+    #head{
+        width: 50vw;
+        height: 7vh;
+        background-color: rgb(229, 226, 233);
+        top: 0;
+        position: fixed;
+        margin-left: 28vw;
+        text-align: center;
+        border-radius: 10px;
+      
+    }
+    .prev{
+        margin-left: 10vw;
+        border-radius:40px 0 0 20px ;
+        
+    }
+    .next{
+        margin-left: 85vw;
+        border-radius:0 40px 20px 0 ;
+        
+    }
+    .prev,.next{
+        width: 100px;
+        height: 30px;
+        background-color: rgba(241, 226, 155, 0.568);
+        position:fixed;
+    }
+    #gq1{
+        padding-top: 10vh;
+        padding-left: 20vw;
+        padding-bottom: 10vh;
+    }
+    #gc1{
+        padding-left: 20vw;
+    }
+    #train{
+        font-size: larger;
+        position: fixed;
+        font-family: Arial, Helvetica, sans-serif;
+    }
 }
-#head{
-    width: 500px;
-    height: 75px;
-    background-color: rgb(229, 226, 233);
-    top: 0;
-    position: fixed;
-    margin-left: 750px;
-    text-align: center;
-    border-radius: 10px;
-  
-}
-.prev{
-    margin-left: 580px;
-    border-radius:40px 0 0 20px ;
-    
-}
-.next{
-    margin-left: 1320px;
-    border-radius:0 40px 20px 0 ;
-    
-}
-.prev,.next{
-    width: 100px;
-    height: 30px;
-    background-color: rgba(241, 226, 155, 0.568);
-    position:fixed;
-}
-#gq1{
-    padding-top: 200px;
-    padding-left: 500px;
-    padding-bottom: 50px;
-}
-#gc1{
-    padding-left: 500px;
-}
-#train{
-    font-size: larger;
-    position: fixed;
-    font-family: Arial, Helvetica, sans-serif;
+
+/* desktop view mode for desktop users  */
+@media screen and (min-width:1000px) {
+    body{
+        background-color: rgb(168, 153, 153);
+    }
+    #Q1{
+       margin-left: 70px; 
+        border-right: 2px dotted black;
+        border-left: 2px dotted black;
+        margin-bottom: 20px;
+        height: 100vh;
+        scroll-snap-align: center;
+    }
+    #Q2{
+        margin-left: 70px;
+        margin-bottom: 10px;
+        scroll-snap-align: center;
+        height: 100vh;
+        border-radius: 10px;
+    }
+    #Q3{
+        margin-left: 70px;
+        margin-bottom: 10px;
+        height: 100vh;
+        scroll-snap-align: center;
+        border-radius: 10px;
+    }
+    #Q4{
+        margin-left: 70px;
+        margin-bottom: 10px;
+        height: 100vh;
+        scroll-snap-align: center;
+        border-radius: 10px;
+    }
+    #Q5{
+        margin-left: 70px;
+        margin-bottom: 10px;
+        height: 100vh;
+        scroll-snap-align: center;
+        border-radius: 10px;
+    }
+    #Q6{
+        margin-left: 70px;
+        margin-bottom: 10px;
+        scroll-snap-align: center;
+        height: 100vh;
+        border-radius: 10px; 
+    }
+    #Q7{
+        margin-left: 70px;
+        margin-bottom: 10px;
+        height: 100vh;
+        scroll-snap-align: center;
+        border-radius: 10px;
+    }
+    #Q8{
+        margin-left: 70px;
+        margin-bottom: 10px;
+        scroll-snap-align: center;
+        height: 100vh;
+        border-radius: 10px;
+    }
+    #Q9{
+        margin-left: 70px;
+        margin-bottom: 10px;
+        scroll-snap-align: center;
+        height: 100vh;
+        border-radius: 10px;
+    }
+    #Q10{
+        margin-left: 70px;
+        margin-bottom: 10px;
+        height: 100vh;
+        scroll-snap-align: center;
+        border-radius: 10px;
+    }
+    #section{
+        overflow-y: auto;
+        scroll-snap-type: y mandatory;
+        height: 97vh;
+        top: 0;
+    }
+    #nav{
+      position: fixed;  
+      display: inline;
+      background-color: rgb(219, 223, 188);
+      padding: 10px;
+      height: 100vh;
+      top: 0;
+      left: 0;
+      
+    }
+    #Q{
+        margin-bottom: 65px;
+    }
+    #up{
+       
+        margin-top: 40px;
+        border-radius: 10px;
+    }
+    #down{
+        
+        margin-top: 850px;
+    }
+    #head{
+        width: 500px;
+        height: 75px;
+        background-color: rgb(229, 226, 233);
+        top: 0;
+        position: fixed;
+        margin-left: 33vw;
+        text-align: center;
+        border-radius: 10px;
+      
+    }
+    .prev{
+        margin-left: 15vw;
+        border-radius:40px 0 0 20px ;
+        
+    }
+    .next{
+        margin-left: 80vw;
+        border-radius:0 40px 20px 0 ;
+        
+    }
+    .prev,.next{
+        width: 100px;
+        height: 30px;
+        background-color: rgba(241, 226, 155, 0.568);
+        position:fixed;
+    }
+    #gq1{
+        font-size: 2.5rem;
+        padding-top: 20vh;
+        padding-left: 15vw;
+        padding-bottom: 50px;
+    }
+    #gc1{
+        font-size:2rem;
+        padding-left: 25vw;
+    }
+    #train{
+        font-size: larger;
+        position: fixed;
+        font-family: Arial, Helvetica, sans-serif;
+    }
 }
