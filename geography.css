@@ -107,18 +107,15 @@
       height: 100vh;
       top: 0;
       left: 0;
-      
     }
     #Q{
-        margin-bottom: 65px;
+        margin-bottom: 5vh;
     }
     #up{
-       
         margin-top: 40px;
         border-radius: 10px;
     }
     #down{
-        
         margin-top: 850px;
     }
     #head{
@@ -130,17 +127,14 @@
         margin-left: 27vw;
         text-align: center;
         border-radius: 10px;
-      
     }
     .prev{
         margin-left: 11vw;
         border-radius:40px 0 0 20px ;
-        
     }
     .next{
         margin-left: 78vw;
         border-radius:0 40px 20px 0 ;
-        
     }
     .prev,.next{
         width: 15vw;
@@ -421,7 +415,7 @@
       
     }
     #Q{
-        margin-bottom: 65px;
+        margin-bottom: 5vh;
     }
     #up{
        
