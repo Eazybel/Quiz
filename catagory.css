@@ -152,15 +152,17 @@
             margin-right: auto;
             margin-top: none;
             width: 80vw;
-            height: 45vh;
+            height: 50vh;
             padding: 2vw;
             text-align: center;
             box-shadow: 0px 0px 60px 10px rgb(147, 189, 228);
             border-radius: 20px;
+            overflow: hidden;
+            
             }
                 #btnd{
                     margin-left: 45vw;
-                    margin-top: 3%;
+                    margin-top: 2%;
                     text-align: center;
                     width: 12vw;
                     height: 5vh;
@@ -172,7 +174,7 @@
                         }
                         #btnd:hover{
                             margin-left: 45vw;
-                            margin-top: 3%;
+                            margin-top: 2%;
                             text-align: center;
                             width: 12vw;
                             height: 5vh;
@@ -181,9 +183,9 @@
                             font-size: 2rem;
                             font-weight: bold;
                             font-style: italic;
-                            background-color: rgb(152, 159, 124);
-                            box-shadow: 0px 0px 60px 10px rgb(218, 237, 255);
-                            color: rgb(239, 209, 185);
+                            background-color: rgb(81, 84, 66);
+                            box-shadow: 0px 0px 20px 10px rgb(218, 237, 255);
+                            color: rgb(203, 181, 162);
                         }
                 .radio{
                     display: none;
