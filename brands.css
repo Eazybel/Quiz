@@ -616,7 +616,13 @@
         font-size: larger;
     }
     #brands{
-        height: 16vh;
-        margin-left: 40%;
+        height: 2vh;
+        margin-left: 20%;
+        position: relative;
+        z-index: 2;
+    }
+    #logo{
+        height: 40vh;
+        margin-left: 50%;
     }
 }

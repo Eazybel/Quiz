@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+        <link href="practice.css" rel="stylesheet">
+        <title>Trivia!</title>
+    </head>
+
+    <body>
+        <div class="header">
+            <h1>Trivia!</h1>
+        </div>
+
+        <div class="container">
+            <div class="section">
+                <h2>Part 1: Multiple Choice </h2>
+                <hr>
+                <h3>Who was the first american black president</h3><br>
+                <button id="barack"> Barack Obama</button> <button id="linkon" type="submit" > Abraham Linkon</button> <button id="bush"> Jorge W bush</button><br>
+                <h2 id="answer1"></h2>
+            </div>
+
+            <div class="section">
+                <h2>Part 2: Free Response</h2>
+                <hr>
+                <h3>when was he/him elected</h3><br>
+                <input id="input2" type=text placeholder="Answer">
+                <button id="answer22" type="submit">Submit</button><br>
+                <h2 id="answer2"></h2>
+            </div>
+        </div>
+    </body>
+    <script>
+      const barack=document.getElementById("barack")
+const linkon=document.getElementById("linkon")
+const bush=document.getElementById("bush")
+const answer2=document.getElementById("answer2")
+const answer1=document.getElementById("answer1")
+const answer22=document.getElementById("answer22")
+linkon.onclick=function(){
+  linkon.style.backgroundColor="red"
+  answer1.innerText="Wrong  the Correct Answer is 'barack obama'"
+
+}
+bush.onclick=function(){
+  bush.style.backgroundColor="red"
+  answer1.innerText="Wrong  the Correct Answer is 'barack obama'"
+}
+barack.onclick=function(){
+  barack.style.backgroundColor="green"
+  answer1.innerText="CORRECT!"
+}
+answer22.onclick=function(){
+  if (input2.value==1926) {
+    answer2.innerText="CORRECT"
+  }
+  if(input2.value!=1926){
+    answer2.innerText="Incorrect answer the correct answer is '1926'"
+  }
+}
+    </script>
+</html>

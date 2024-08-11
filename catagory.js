@@ -7,7 +7,7 @@ const literature=document.getElementById("literature")
 const art=document.getElementById("art")
 const sports=document.getElementById("sports")
 const brands=document.getElementById("brands")
-const football=document.getElementById("football")
+const player=document.getElementById("player")
 const famous=document.getElementById("famous")
 btnd.onclick=function(){
     if (geography.checked) {
@@ -31,8 +31,8 @@ btnd.onclick=function(){
     if (brands.checked) {
         document.location=("brands.html")
     }
-    if (football.checked) {
-        document.location=("football.html")
+    if (player.checked) {
+        document.location=("player.html")
     }
     if (famous.checked) {
         document.location=("famous.html")

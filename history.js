@@ -13,9 +13,17 @@ const b8=document.getElementById("b8")
 const a9=document.getElementById("a9")
 const a10=document.getElementById("a10")
 const train=document.getElementById("train")
-
+const course=document.getElementById("course")
+const submit=document.getElementById("submit")
+const popup=document.getElementById("popup")
+const Q10=document.getElementById("Q10")
+const container=document.getElementById("container")
+const result=document.getElementById("result")
+const texts=document.getElementById("texts")
+const ok=document.getElementById("ok")
+const comment=document.getElementById("comment")
 let answer=0
-next.onclick=function(){
+submit.onclick=function(){
     if (b1.checked) {
         answer=answer+1
     }
@@ -37,7 +45,22 @@ next.onclick=function(){
         answer=answer+1
     }  if(a10.checked){
         answer=answer+1
+    }if (answer<5) {
+        comment.innerText="You better Study Geography you got"
     }
-   
-    train.textContent=(answer)
+    if (answer>5 && answer<8) {
+        comment.innerText="You're doing great you got"
+    }
+    if (answer>5 && answer>8) {
+        comment.innerText="Woooow You Nailed it you got"
+    }
+    texts.style.display="block"
+    result.innerText=answer
+    container.style.backgroundColor="black"
+    container.style.display="none"
+    popup.style.visibility="visible"
+    popup.classList.add("popup");
+   }
+   ok.onclick=function(){
+    document.location="catagory.html"
    }

@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="brands.css">
     <title>Document</title>
 </head>
@@ -27,10 +28,9 @@
         <div id="head">
             <h1 id="course">History</h1>
         </div>
-        <img id="brands" alt="adidas-logo" srcset="brand\adidas.png">
         <div id="Q1">    
                     <h1 id="gq1">1. what is the name of is this famous brand</h1>
-                    <img id="brands" alt="adidas-logo" srcset="brand\adidas.png">
+                    <div id="brands"><img id="logo" alt="adidas-logo" srcset="brand\adidas.png"></div>
                     <h2 id="gc1">
                         <input type="radio" name="#1" id="a1">
                         <label for="a1">a) Apple</label>  <br><br>
@@ -47,7 +47,7 @@
             <div id="up">
             </div>
             <h1 id="gq1" >2. what is the name of is this famous brand</h1>
-            <img id="brands" alt="amazon-logo" srcset="brand\amazon.png">
+            <div id="brands"><img id="logo" alt="amazon-logo" srcset="brand\amazon.png"></div>
             <h2 id="gc1">
                 <input type="radio" name="#2" id="a2">
                 <label for="a2">a) coca cola</label>  <br><br>
@@ -65,7 +65,7 @@
         <div id="Q3">
             <div id="up">
                 <h1 id="gq1">3.what is the name of is this famous brand</h1>
-                <img id="brands" alt="instagram-logo" srcset="brand\instagram.png">
+                <div id="brands"><img id="logo" alt="instagram-logo" srcset="brand\instagram.png"></div>
                 <h2 id="gc1">
                     <input type="radio" name="#3" id="a3">
                     <label for="a3">a) HP</label>  <br><br>
@@ -85,7 +85,7 @@
         <div id="Q4">
                 <div id="up"> 
                     <h1 id="gq1">4. what is the name of is this famous brand</h1>
-                    <img id="brands" alt="luis-logo" srcset="brand\luis.png">
+                    <div id="brands"><img id="logo" alt="luis-logo" srcset="brand\luis.png"></div>
                     <h2 id="gc1">
                         <input type="radio" name="#4" id="a4">
                         <label for="a4">a) Luis vuiton</label>  <br><br>
@@ -108,7 +108,7 @@
         <div id="Q5">
                 <div id="up">      
                     <h1 id="gq1">5. what is the name of is this famous brand</h1>
-                    <img id="brands" alt="mercedes-logo" srcset="brand\mercedes.png">
+                    <div id="brands"><img id="logo" alt="mercedes-logo" srcset="brand\mercedes.png"></div>
                     <h2 id="gc1">
                         <input type="radio" name="#5" id="a5">
                         <label for="a5">a) land rover
@@ -131,7 +131,7 @@
         <div id="Q6">
                 <div id="up">
                     <h1 id="gq1">6. what is the name of is this famous brand</h1>
-                    <img id="brands" alt="netflix-logo" srcset="brand\netflix.png">
+                    <div id="brands"><img id="logo" alt="netflix-logo" srcset="brand\netflix.png"></div>
                     <h2 id="gc1">
                         <input type="radio" name="#6" id="a6">
                         <label for="a6">a) fox</label>  <br><br>
@@ -154,7 +154,7 @@
         <div id="Q7">
                 <div id="up">
                     <h1 id="gq1">7. what is the name of is this famous brand</h1>
-                    <img id="brands" alt="playstation-logo" srcset="brand\playstation.png">
+                    <div id="brands"><img id="logo" alt="playstation-logo" srcset="brand\playstation.png"></div>
                     <h2 id="gc1">
                         <input type="radio" name="#7" id="a7">
                         <label for="a7">a) playstation
@@ -178,7 +178,7 @@
         <div id="Q8">
                 <div id="up">
                     <h1 id="gq1">8. what is the name of is this famous brand</h1>
-                    <img id="brands" alt="puma-logo" srcset="brand\puma.png">
+                    <div id="brands"><img id="logo" alt="puma-logo" srcset="brand\puma.png"></div>
                     <h2 id="gc1">
                         <input type="radio" name="#8" id="a8">
                         <label for="a8">a) bridge-stone</label>  <br><br>
@@ -198,7 +198,7 @@
         <div id="Q9">
                 <div id="up">
                     <h1 id="gq1">9. what is the name of is this famous brand</h1>
-                    <img id="brands" alt="uniliver-logo" srcset="brand\uniliver.png">
+                    <div id="brands"><img id="logo" alt="uniliver-logo" srcset="brand\uniliver.png"></div>
                     <h2 id="gc1">
                         <input type="radio" name="#9" id="a9">
                         <label for="a9">a) uniliver</label>  <br><br>
@@ -218,7 +218,7 @@
         <div id="Q10">
                 <div id="up">
                     <h1 id="gq1">10. what is the name of is this famous brand</h1>
-                    <img id="brands" alt="volks-logo" srcset="brand\volks.png">
+                    <div id="brands"><img id="logo" alt="volks-logo" srcset="brand\volks.png"></div>
                     <h2 id="gc1">
                         <input type="radio" name="#10" id="a10">
                         <label for="a10">a) Volks Waggen</label>  <br><br>
@@ -229,7 +229,8 @@
                         <input type="radio" name="#10" id="d10">
                         <label for="d10">d) Hilton</label>  <br><br>
                     </h2>
-                    <button id="submit" type="button">Submit</button>
+                    <button type="button" class="btn btn-primary btn-lg">Large button</button>
+
                 </div>
             <div id="down">
         </div>

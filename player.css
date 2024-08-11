@@ -1,0 +1,628 @@
+/* mobile mode for mobile users */
+@media screen and (max-width:600px){
+    body{
+        background-color: rgb(168, 153, 153);
+        overflow: hidden;
+    }
+    #Q1{
+        border-right: 2px dotted black;
+        border-left: 2px dotted black;
+        margin-bottom: 20px;
+        height: 80vh;
+        scroll-snap-align: center;
+        margin-top: 40px;
+   
+    }
+    #Q2{ 
+        border-right: 2px dotted black;
+        border-left: 2px dotted black;
+        margin-bottom: 20px;
+        height: 80vh;
+        scroll-snap-align: center;
+        margin-top: 40px;
+         
+    }
+    #Q3{ 
+        border-right: 2px dotted black;
+        border-left: 2px dotted black;
+        margin-bottom: 20px;
+        height: 80vh;
+        scroll-snap-align: center;
+        margin-top: 40px;
+         
+    }
+    #Q4{
+        border-right: 2px dotted black;
+        border-left: 2px dotted black;
+        margin-bottom: 20px;
+        height: 80vh;
+        scroll-snap-align: center;
+        margin-top: 40px;
+         
+    }
+    #Q5{
+        border-right: 2px dotted black;
+        border-left: 2px dotted black;
+        margin-bottom: 20px;
+        height: 80vh;
+        scroll-snap-align: center;
+        margin-top: 40px;
+         
+    }
+    #Q6{
+        border-right: 2px dotted black;
+        border-left: 2px dotted black;
+        margin-bottom: 20px;
+        height: 80vh;
+        scroll-snap-align: center;
+        margin-top: 40px;
+         
+    }
+    #Q7{ 
+        border-right: 2px dotted black;
+        border-left: 2px dotted black;
+        margin-bottom: 20px;
+        height: 80vh;
+        scroll-snap-align: center;
+        margin-top: 40px;
+         
+    }
+    #Q8{ 
+        border-right: 2px dotted black;
+        border-left: 2px dotted black;
+        margin-bottom: 20px;
+        height: 80vh;
+        scroll-snap-align: center;
+        margin-top: 40px;
+         
+    }
+    #Q9{ 
+        border-right: 2px dotted black;
+        border-left: 2px dotted black;
+        margin-bottom: 20px;
+        height: 80vh;
+        scroll-snap-align: center;
+        margin-top: 40px;
+         
+    }
+    #Q10{
+        border-right: 2px dotted black;
+        border-left: 2px dotted black;
+        margin-bottom: 20px;
+        height: 80vh;
+        scroll-snap-align: center;
+        margin-top: 40px;
+         
+    }
+    #section{
+        overflow-y: auto;
+        scroll-snap-type: y mandatory;
+        height: 100vh;
+    }
+    #nav{
+      position: fixed;  
+      display: inline;
+      background-color: rgb(219, 223, 188);
+      padding: 1vw;
+      height: 100vh;
+      top: 0;
+      left: 0;
+    }
+    #up{
+        margin-top: 40px;
+        border-radius: 10px;
+    }
+    #down{
+        margin-top: 850px;
+    }
+    #head{
+        width: 50vw;
+        height: 10vh;
+        background-color: rgb(229, 226, 233);
+        position: fixed;
+        margin-left: 27vw;
+        text-align: center;
+        border-radius: 10px;
+        margin-bottom: 10vh;
+    }
+    .prev{
+        margin-left: 11vw;
+        border-radius:40px 0 0 20px ;
+    }
+    .next{
+        margin-left: 78vw;
+        border-radius:0 40px 20px 0 ;
+    }
+    .prev,.next{
+        width: 15vw;
+        height: 30px;
+        background-color: rgba(241, 226, 155, 0.568);
+        position:fixed;
+    }
+    #gq1{
+        padding-top: 8vh;
+        padding-left: 15vw;
+        font-size: 1.5rem;
+        margin-top: 20vh;
+    }
+    #gc1{
+        padding-left: 20vw;
+    }
+    #train{
+        font-size: larger;
+        position: fixed;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    #submit{
+        margin-left: 32%;
+        width: 40vw;
+        height: 5vh;
+        border-radius: 3rem;
+        background-color: #f0ddf1;
+        border: none;
+        font-size: larger;
+    }
+    #Q{
+        margin-bottom:5vh;
+    }
+    .popup{
+        visibility:hidden;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20vh;
+        height: 55vh;
+        width: 80vw;
+        background-color: rgb(215, 165, 165);
+        justify-content: center;
+        align-items: center;
+        transition: 1s, 1s;
+        text-align: center;
+        font-size: 1.5rem;
+        padding-top: 5vh;
+        border-style: double;
+        border-radius: 3rem;
+    } 
+    #texts{
+        display: none;
+    }
+    i{
+        font-size: 2.5rem;
+    }
+    #ok{
+        margin-top: 3vh;
+        width: 40vw;
+        height: 5vh;
+        border-radius: 3rem;
+        background-color: #98d0f3;
+        border: none;
+        font-size: larger;
+    }
+    #brands{
+        height: 16vh;
+        margin-left: 40%;
+    }
+  
+}
+
+/* tablet mode for tablet users */
+@media screen and (min-width:620px) and (max-width:992px){
+    body{
+        background-color: rgb(168, 153, 153);
+        overflow: hidden;
+    }
+    #Q1{
+        border-right: 2px dotted black;
+        border-left: 2px dotted black;
+        margin-bottom: 20px;
+        height: 80vh;
+        scroll-snap-align: center;
+        margin-top: 5vh;
+        font-size: 1.5rem;
+    }
+    #Q2{ 
+        border-right: 2px dotted black;
+        border-left: 2px dotted black;
+        margin-bottom: 20px;
+        height: 80vh;
+        scroll-snap-align: center;
+        margin-top: 40px;
+        font-size: 1.5rem;
+    }
+    #Q3{ 
+        border-right: 2px dotted black;
+        border-left: 2px dotted black;
+        margin-bottom: 20px;
+        height: 80vh;
+        scroll-snap-align: center;
+        margin-top: 40px;
+        font-size: 1.5rem;
+    }
+    #Q4{
+        border-right: 2px dotted black;
+        border-left: 2px dotted black;
+        margin-bottom: 20px;
+        height: 80vh;
+        scroll-snap-align: center;
+        margin-top: 40px;
+         font-size: 1.5rem;
+    }
+    #Q5{
+        border-right: 2px dotted black;
+        border-left: 2px dotted black;
+        margin-bottom: 20px;
+        height: 80vh;
+        scroll-snap-align: center;
+        margin-top: 40px;
+         font-size: 1.5rem;
+    }
+    #Q6{
+        border-right: 2px dotted black;
+        border-left: 2px dotted black;
+        margin-bottom: 20px;
+        height: 80vh;
+        scroll-snap-align: center;
+        margin-top: 40px;
+         font-size: 1.5rem;
+    }
+    #Q7{ 
+        border-right: 2px dotted black;
+        border-left: 2px dotted black;
+        margin-bottom: 20px;
+        height: 80vh;
+        scroll-snap-align: center;
+        margin-top: 40px;
+         font-size: 1.5rem;
+    }
+    #Q8{ 
+        border-right: 2px dotted black;
+        border-left: 2px dotted black;
+        margin-bottom: 20px;
+        height: 80vh;
+        scroll-snap-align: center;
+        margin-top: 40px;
+         font-size: 1.5rem;
+    }
+    #Q9{ 
+        border-right: 2px dotted black;
+        border-left: 2px dotted black;
+        margin-bottom: 20px;
+        height: 80vh;
+        scroll-snap-align: center;
+        margin-top: 40px;
+         font-size: 1.5rem;
+    }
+    #Q10{
+        border-right: 2px dotted black;
+        border-left: 2px dotted black;
+        margin-bottom: 20px;
+        height: 80vh;
+        scroll-snap-align: center;
+        margin-top: 40px;
+         font-size: 1.5rem;
+    }
+    #section{
+        overflow-y: auto;
+        scroll-snap-type: y mandatory;
+        height: 100vh;
+        top: 0;
+    }
+    #nav{
+      position: fixed;  
+      display: inline;
+      background-color: rgb(219, 223, 188);
+      padding: 1vw;
+      height: 100vh;
+      top: 0;
+      left: 0;
+      
+    }
+    #Q{
+        margin-bottom: 65px;
+    }
+    #up{
+       
+        margin-top: 40px;
+        border-radius: 10px;
+    }
+    #down{
+        
+        margin-top: 850px;
+    }
+    #head{
+        width: 50vw;
+        height: 7vh;
+        background-color: rgb(229, 226, 233);
+        top: 0;
+        position: fixed;
+        margin-left: 28vw;
+        text-align: center;
+        border-radius: 10px;
+      
+    }
+    .prev{
+        margin-left: 10vw;
+        border-radius:40px 0 0 20px ;
+        
+    }
+    .next{
+        margin-left: 85vw;
+        border-radius:0 40px 20px 0 ;
+        
+    }
+    .prev,.next{
+        width: 100px;
+        height: 30px;
+        background-color: rgba(241, 226, 155, 0.568);
+        position:fixed;
+    }
+    #gq1{
+        padding-top: 10vh;
+        padding-left: 20vw;
+    }
+    #gc1{
+        padding-left: 20vw;
+    }
+    #train{
+        font-size: larger;
+        position: fixed;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    #submit{
+        margin-left: 30vw;
+        width: 40vw;
+        height: 5vh;
+        border-radius: 3rem;
+        background-color: #f0ddf1;
+        border: none;
+        font-size: larger;
+    }
+    #Q{
+        margin-bottom:7vh;
+    }
+    .popup{
+        visibility:hidden;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20vh;
+        height: 55vh;
+        width: 80vw;
+        background-color: rgb(215, 165, 165);
+        justify-content: center;
+        align-items: center;
+        transition: 1s, 1s;
+        text-align: center;
+        font-size: 1.5rem;
+        padding-top: 5vh;
+        border-style: double;
+        border-radius: 3rem;
+    } 
+    #texts{
+        display: none;
+    }
+    i{
+        font-size: 2.5rem;
+    }
+    #ok{
+        margin-top: 10vh;
+        width: 40vw;
+        height: 8vh;
+        border-radius: 3rem;
+        background-color: #98d0f3;
+        border: none;
+        font-size: larger;
+    }
+    #brands{
+        height: 16vh;
+        margin-left: 40%;
+    }
+}
+
+/* desktop view mode for desktop users  */
+@media screen and (min-width:1000px) {
+    body{
+        background-color: rgb(168, 153, 153);
+        overflow: hidden;
+    }
+    #Q1{
+       margin-left: 70px; 
+        border-right: 2px dotted black;
+        border-left: 2px dotted black;
+        margin-bottom: 20px;
+        height: 100vh;
+        scroll-snap-align: center;
+    }
+    #Q2{
+        margin-left: 70px;
+        margin-bottom: 10px;
+        scroll-snap-align: center;
+        height: 100vh;
+        border-radius: 10px;
+    }
+    #Q3{
+        margin-left: 70px;
+        margin-bottom: 10px;
+        height: 100vh;
+        scroll-snap-align: center;
+        border-radius: 10px;
+    }
+    #Q4{
+        margin-left: 70px;
+        margin-bottom: 10px;
+        height: 100vh;
+        scroll-snap-align: center;
+        border-radius: 10px;
+    }
+    #Q5{
+        margin-left: 70px;
+        margin-bottom: 10px;
+        height: 100vh;
+        scroll-snap-align: center;
+        border-radius: 10px;
+    }
+    #Q6{
+        margin-left: 70px;
+        margin-bottom: 10px;
+        scroll-snap-align: center;
+        height: 100vh;
+        border-radius: 10px; 
+    }
+    #Q7{
+        margin-left: 70px;
+        margin-bottom: 10px;
+        height: 100vh;
+        scroll-snap-align: center;
+        border-radius: 10px;
+    }
+    #Q8{
+        margin-left: 70px;
+        margin-bottom: 10px;
+        scroll-snap-align: center;
+        height: 100vh;
+        border-radius: 10px;
+    }
+    #Q9{
+        margin-left: 70px;
+        margin-bottom: 10px;
+        scroll-snap-align: center;
+        height: 100vh;
+        border-radius: 10px;
+    }
+    #Q10{
+        margin-left: 70px;
+        margin-bottom: 10px;
+        height: 100vh;
+        scroll-snap-align: center;
+        border-radius: 10px;
+    }
+    #section{
+        overflow-y: auto;
+        scroll-snap-type: y mandatory;
+        height: 97vh;
+        top: 0;
+        
+    }
+    #nav{
+      position: fixed;  
+      display: inline;
+      background-color: rgb(219, 223, 188);
+      padding: 10px;
+      height: 100vh;
+      top: 0;
+      left: 0;
+      
+    }
+   
+    #up{
+       
+        margin-top: 40px;
+        border-radius: 10px;
+    }
+    #down{
+        
+        margin-top: 850px;
+    }
+    #head{
+        width: 500px;
+        height: 75px;
+        background-color: rgb(229, 226, 233);
+        top: 0;
+        position: fixed;
+        margin-left: 35vw;
+        text-align: center;
+        border-radius: 10px;
+      
+    }
+    .prev{
+        margin-left: 20vw;
+        border-radius:40px 0 0 20px ;
+        
+    }
+    .next{
+        margin-left: 80vw;
+        border-radius:0 40px 20px 0 ;
+        
+    }
+    .prev,.next{
+        width: 100px;
+        height: 30px;
+        background-color: rgba(241, 226, 155, 0.568);
+        position:fixed;
+    }
+    #gq1{
+        font-size: 2.5rem;
+        padding-top: 18vh;
+        padding-left: 10vw;
+    }
+    #gc1{
+        font-size:2rem;
+        padding-left: 25vw;
+    }
+    #train{
+        font-size: larger;
+        position: fixed;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    #submit{
+        margin-left: 40vw;
+        width: 10vw;
+        height: 5vh;
+        border-radius: 3rem;
+        background-color: #f0ddf1;
+        border: none;
+        font-size: larger;
+    }
+    #submit:hover{
+        margin-left: 40vw;
+        width: 10vw;
+        height: 6vh;
+        border-radius: 3rem;
+        background-color: #d5ecf3;
+        border: none;
+        font-size: larger;
+    }
+    #Q{
+        margin-bottom:5vh;
+    }
+    .popup{
+        visibility:hidden;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20vh;
+        height: 55vh;
+        width: 80vw;
+        background-color: rgb(215, 165, 165);
+        justify-content: center;
+        align-items: center;
+        transition: 1s, 1s;
+        text-align: center;
+        font-size: 1.5rem;
+        padding-top: 5vh;
+        border-style: double;
+        border-radius: 3rem;
+    } 
+    #texts{
+        display: none;
+    }
+    i{
+        font-size: 2.5rem;
+    }
+    #ok{
+        margin-top: 10vh;
+        width: 10vw;
+        height: 5vh;
+        border-radius: 3rem;
+        background-color: #98d0f3;
+        border: none;
+        font-size: larger;
+    }
+    #player{
+        height: 2vh;
+        margin-left: 20%;
+        position: relative;
+        z-index: 2;
+    }
+    #logo{
+        height: 40vh;
+        margin-left: 50%;
+    }
+}
