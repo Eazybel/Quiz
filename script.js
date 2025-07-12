@@ -1,29 +1,17 @@
-const link1 = document.getElementById("link1");
-const link2 = document.getElementById("link2");
-const btn = document.getElementById("btn");
-let para = document.getElementById("para");
-const cont=document.getElementById("continue");
+const htmlE=document.getElementById("htmlE")
+const easy=document.getElementsByClassName("text-green-700")
 
-link1.onclick=function(){
-   para.innerHTML=("<h2>This service is not available</h2>\ncontinue without signing-up");
-   setTimeout(fun3,2000);
+htmlE.addEventListener("click",()=>{
+   fetch(`https://quizapi.io/api/v1/questions?apiKey=uY7Mpxfre42OGT8hBNOwDirHpCi1wMMLkjQ75dW4&limit=10&category=Html&difficulty=easy`)
+.then(res=>res.json())
+.then(data=>{
+   console.log(data)
+})
+for (let div of easy) {
+   console.log(div.parentNode.firstChild)
+}
+
+console.log("sucess")
+
+})
  
-} 
-link2.onclick=function (){
-   para.innerHTML=("<h2>This service is not available</h2>\ncontinue without signing-up");
-   setTimeout(fun3,2000);
-}
-
-const fun3=function(){
-   para.textContent=""
-}
-
-
-
-
-
-
-
-
-
-
