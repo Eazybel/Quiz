@@ -11,355 +11,22 @@
   <!-- ✅ Font Awesome (no integrity to avoid blocking) -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
+<body id="header" class="bg-gradient-to-br from-gray-50 to-gray-200 min-h-screen py-10 px-4">
 
-<body class="bg-gradient-to-br from-gray-100 to-gray-200 min-h-screen flex flex-col items-center p-6">
-  <div class="text-center mb-10">
+  <!-- Header -->
+  <div  class="text-center mb-10">
     <h1 class="text-4xl font-extrabold text-gray-800 mb-2">🚀 SkillQuest</h1>
     <p class="text-gray-600 text-lg">Master your next skill — choose a category and select your preferred difficulty to begin your journey!</p>
   </div>
+
+  <!-- Grid -->
+  <div id="container" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 max-w-7xl mx-auto">
+    <!-- Category 1 -->
   
- <h1 class="text-3xl font-bold text-gray-800 mb-6">Select a Category</h1>
-  <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 w-full max-w-7xl">
     
-        <div class="bg-white shadow-xl rounded-2xl p-5 hover:scale-[1.03] transition-all duration-300 cursor-pointer hover:shadow-2xl">
-          <div class="flex justify-between items-center mb-2">
-            <span class="text-sm px-3 py-1 rounded-full bg-green-100 text-green-700 font-semibold">Beginner</span>
-            <span class="text-gray-500 text-xs">#1</span>
-          </div>
-          <h2 class="text-xl font-semibold text-gray-800">BASH</h2>
-        </div>
-        
-        <div class="bg-white shadow-xl rounded-2xl p-5 hover:scale-[1.03] transition-all duration-300 cursor-pointer hover:shadow-2xl">
-          <div class="flex justify-between items-center mb-2">
-            <span class="text-sm px-3 py-1 rounded-full bg-yellow-100 text-yellow-700 font-semibold">Intermediate</span>
-            <span class="text-gray-500 text-xs">#1</span>
-          </div>
-          <h2 class="text-xl font-semibold text-gray-800">BASH</h2>
-        </div>
-        
-        <div class="bg-white shadow-xl rounded-2xl p-5 hover:scale-[1.03] transition-all duration-300 cursor-pointer hover:shadow-2xl">
-          <div class="flex justify-between items-center mb-2">
-            <span class="text-sm px-3 py-1 rounded-full bg-red-100 text-red-700 font-semibold">Advanced</span>
-            <span class="text-gray-500 text-xs">#1</span>
-          </div>
-          <h2 class="text-xl font-semibold text-gray-800">BASH</h2>
-        </div>
-        
-        <div class="bg-white shadow-xl rounded-2xl p-5 hover:scale-[1.03] transition-all duration-300 cursor-pointer hover:shadow-2xl">
-          <div class="flex justify-between items-center mb-2">
-            <span class="text-sm px-3 py-1 rounded-full bg-green-100 text-green-700 font-semibold">Beginner</span>
-            <span class="text-gray-500 text-xs">#2</span>
-          </div>
-          <h2 class="text-xl font-semibold text-gray-800">Django</h2>
-        </div>
-        
-        <div class="bg-white shadow-xl rounded-2xl p-5 hover:scale-[1.03] transition-all duration-300 cursor-pointer hover:shadow-2xl">
-          <div class="flex justify-between items-center mb-2">
-            <span class="text-sm px-3 py-1 rounded-full bg-yellow-100 text-yellow-700 font-semibold">Intermediate</span>
-            <span class="text-gray-500 text-xs">#2</span>
-          </div>
-          <h2 class="text-xl font-semibold text-gray-800">Django</h2>
-        </div>
-        
-        <div class="bg-white shadow-xl rounded-2xl p-5 hover:scale-[1.03] transition-all duration-300 cursor-pointer hover:shadow-2xl">
-          <div class="flex justify-between items-center mb-2">
-            <span class="text-sm px-3 py-1 rounded-full bg-red-100 text-red-700 font-semibold">Advanced</span>
-            <span class="text-gray-500 text-xs">#2</span>
-          </div>
-          <h2 class="text-xl font-semibold text-gray-800">Django</h2>
-        </div>
-        
-        <div class="bg-white shadow-xl rounded-2xl p-5 hover:scale-[1.03] transition-all duration-300 cursor-pointer hover:shadow-2xl">
-          <div class="flex justify-between items-center mb-2">
-            <span class="text-sm px-3 py-1 rounded-full bg-green-100 text-green-700 font-semibold">Beginner</span>
-            <span class="text-gray-500 text-xs">#3</span>
-          </div>
-          <h2 class="text-xl font-semibold text-gray-800">Docker</h2>
-        </div>
-        
-        <div class="bg-white shadow-xl rounded-2xl p-5 hover:scale-[1.03] transition-all duration-300 cursor-pointer hover:shadow-2xl">
-          <div class="flex justify-between items-center mb-2">
-            <span class="text-sm px-3 py-1 rounded-full bg-yellow-100 text-yellow-700 font-semibold">Intermediate</span>
-            <span class="text-gray-500 text-xs">#3</span>
-          </div>
-          <h2 class="text-xl font-semibold text-gray-800">Docker</h2>
-        </div>
-        
-        <div class="bg-white shadow-xl rounded-2xl p-5 hover:scale-[1.03] transition-all duration-300 cursor-pointer hover:shadow-2xl">
-          <div class="flex justify-between items-center mb-2">
-            <span class="text-sm px-3 py-1 rounded-full bg-red-100 text-red-700 font-semibold">Advanced</span>
-            <span class="text-gray-500 text-xs">#3</span>
-          </div>
-          <h2 class="text-xl font-semibold text-gray-800">Docker</h2>
-        </div>
-        
-        <div id="htmlE" class="bg-white shadow-xl rounded-2xl p-5 hover:scale-[1.03] transition-all duration-300 cursor-pointer hover:shadow-2xl">
-          <div class="flex justify-between items-center mb-2">
-            <span class="text-sm px-3 py-1 rounded-full bg-green-100 text-green-700 font-semibold">Beginner</span>
-            <span class="text-gray-500 text-xs">#4</span>
-          </div>
-          <h2 class="text-xl font-semibold text-gray-800">HTML</h2>
-        </div>
-        
-        <div class="bg-white shadow-xl rounded-2xl p-5 hover:scale-[1.03] transition-all duration-300 cursor-pointer hover:shadow-2xl">
-          <div class="flex justify-between items-center mb-2">
-            <span class="text-sm px-3 py-1 rounded-full bg-yellow-100 text-yellow-700 font-semibold">Intermediate</span>
-            <span class="text-gray-500 text-xs">#4</span>
-          </div>
-          <h2 class="text-xl font-semibold text-gray-800">HTML</h2>
-        </div>
-        
-        <div class="bg-white shadow-xl rounded-2xl p-5 hover:scale-[1.03] transition-all duration-300 cursor-pointer hover:shadow-2xl">
-          <div class="flex justify-between items-center mb-2">
-            <span class="text-sm px-3 py-1 rounded-full bg-red-100 text-red-700 font-semibold">Advanced</span>
-            <span class="text-gray-500 text-xs">#4</span>
-          </div>
-          <h2 class="text-xl font-semibold text-gray-800">HTML</h2>
-        </div>
-        
-        <div class="bg-white shadow-xl rounded-2xl p-5 hover:scale-[1.03] transition-all duration-300 cursor-pointer hover:shadow-2xl">
-          <div class="flex justify-between items-center mb-2">
-            <span class="text-sm px-3 py-1 rounded-full bg-green-100 text-green-700 font-semibold">Beginner</span>
-            <span class="text-gray-500 text-xs">#5</span>
-          </div>
-          <h2 class="text-xl font-semibold text-gray-800">JavaScript</h2>
-        </div>
-        
-        <div class="bg-white shadow-xl rounded-2xl p-5 hover:scale-[1.03] transition-all duration-300 cursor-pointer hover:shadow-2xl">
-          <div class="flex justify-between items-center mb-2">
-            <span class="text-sm px-3 py-1 rounded-full bg-yellow-100 text-yellow-700 font-semibold">Intermediate</span>
-            <span class="text-gray-500 text-xs">#5</span>
-          </div>
-          <h2 class="text-xl font-semibold text-gray-800">JavaScript</h2>
-        </div>
-        
-        <div class="bg-white shadow-xl rounded-2xl p-5 hover:scale-[1.03] transition-all duration-300 cursor-pointer hover:shadow-2xl">
-          <div class="flex justify-between items-center mb-2">
-            <span class="text-sm px-3 py-1 rounded-full bg-red-100 text-red-700 font-semibold">Advanced</span>
-            <span class="text-gray-500 text-xs">#5</span>
-          </div>
-          <h2 class="text-xl font-semibold text-gray-800">JavaScript</h2>
-        </div>
-        
-        <div class="bg-white shadow-xl rounded-2xl p-5 hover:scale-[1.03] transition-all duration-300 cursor-pointer hover:shadow-2xl">
-          <div class="flex justify-between items-center mb-2">
-            <span class="text-sm px-3 py-1 rounded-full bg-green-100 text-green-700 font-semibold">Beginner</span>
-            <span class="text-gray-500 text-xs">#6</span>
-          </div>
-          <h2 class="text-xl font-semibold text-gray-800">Kubernetes</h2>
-        </div>
-        
-        <div class="bg-white shadow-xl rounded-2xl p-5 hover:scale-[1.03] transition-all duration-300 cursor-pointer hover:shadow-2xl">
-          <div class="flex justify-between items-center mb-2">
-            <span class="text-sm px-3 py-1 rounded-full bg-yellow-100 text-yellow-700 font-semibold">Intermediate</span>
-            <span class="text-gray-500 text-xs">#6</span>
-          </div>
-          <h2 class="text-xl font-semibold text-gray-800">Kubernetes</h2>
-        </div>
-        
-        <div class="bg-white shadow-xl rounded-2xl p-5 hover:scale-[1.03] transition-all duration-300 cursor-pointer hover:shadow-2xl">
-          <div class="flex justify-between items-center mb-2">
-            <span class="text-sm px-3 py-1 rounded-full bg-red-100 text-red-700 font-semibold">Advanced</span>
-            <span class="text-gray-500 text-xs">#6</span>
-          </div>
-          <h2 class="text-xl font-semibold text-gray-800">Kubernetes</h2>
-        </div>
-        
-        <div class="bg-white shadow-xl rounded-2xl p-5 hover:scale-[1.03] transition-all duration-300 cursor-pointer hover:shadow-2xl">
-          <div class="flex justify-between items-center mb-2">
-            <span class="text-sm px-3 py-1 rounded-full bg-green-100 text-green-700 font-semibold">Beginner</span>
-            <span class="text-gray-500 text-xs">#7</span>
-          </div>
-          <h2 class="text-xl font-semibold text-gray-800">Laravel</h2>
-        </div>
-        
-        <div class="bg-white shadow-xl rounded-2xl p-5 hover:scale-[1.03] transition-all duration-300 cursor-pointer hover:shadow-2xl">
-          <div class="flex justify-between items-center mb-2">
-            <span class="text-sm px-3 py-1 rounded-full bg-yellow-100 text-yellow-700 font-semibold">Intermediate</span>
-            <span class="text-gray-500 text-xs">#7</span>
-          </div>
-          <h2 class="text-xl font-semibold text-gray-800">Laravel</h2>
-        </div>
-        
-        <div class="bg-white shadow-xl rounded-2xl p-5 hover:scale-[1.03] transition-all duration-300 cursor-pointer hover:shadow-2xl">
-          <div class="flex justify-between items-center mb-2">
-            <span class="text-sm px-3 py-1 rounded-full bg-red-100 text-red-700 font-semibold">Advanced</span>
-            <span class="text-gray-500 text-xs">#7</span>
-          </div>
-          <h2 class="text-xl font-semibold text-gray-800">Laravel</h2>
-        </div>
-        
-        <div class="bg-white shadow-xl rounded-2xl p-5 hover:scale-[1.03] transition-all duration-300 cursor-pointer hover:shadow-2xl">
-          <div class="flex justify-between items-center mb-2">
-            <span class="text-sm px-3 py-1 rounded-full bg-green-100 text-green-700 font-semibold">Beginner</span>
-            <span class="text-gray-500 text-xs">#8</span>
-          </div>
-          <h2 class="text-xl font-semibold text-gray-800">Linux</h2>
-        </div>
-        
-        <div class="bg-white shadow-xl rounded-2xl p-5 hover:scale-[1.03] transition-all duration-300 cursor-pointer hover:shadow-2xl">
-          <div class="flex justify-between items-center mb-2">
-            <span class="text-sm px-3 py-1 rounded-full bg-yellow-100 text-yellow-700 font-semibold">Intermediate</span>
-            <span class="text-gray-500 text-xs">#8</span>
-          </div>
-          <h2 class="text-xl font-semibold text-gray-800">Linux</h2>
-        </div>
-        
-        <div class="bg-white shadow-xl rounded-2xl p-5 hover:scale-[1.03] transition-all duration-300 cursor-pointer hover:shadow-2xl">
-          <div class="flex justify-between items-center mb-2">
-            <span class="text-sm px-3 py-1 rounded-full bg-red-100 text-red-700 font-semibold">Advanced</span>
-            <span class="text-gray-500 text-xs">#8</span>
-          </div>
-          <h2 class="text-xl font-semibold text-gray-800">Linux</h2>
-        </div>
-        
-        <div class="bg-white shadow-xl rounded-2xl p-5 hover:scale-[1.03] transition-all duration-300 cursor-pointer hover:shadow-2xl">
-          <div class="flex justify-between items-center mb-2">
-            <span class="text-sm px-3 py-1 rounded-full bg-green-100 text-green-700 font-semibold">Beginner</span>
-            <span class="text-gray-500 text-xs">#9</span>
-          </div>
-          <h2 class="text-xl font-semibold text-gray-800">MySQL</h2>
-        </div>
-        
-        <div class="bg-white shadow-xl rounded-2xl p-5 hover:scale-[1.03] transition-all duration-300 cursor-pointer hover:shadow-2xl">
-          <div class="flex justify-between items-center mb-2">
-            <span class="text-sm px-3 py-1 rounded-full bg-yellow-100 text-yellow-700 font-semibold">Intermediate</span>
-            <span class="text-gray-500 text-xs">#9</span>
-          </div>
-          <h2 class="text-xl font-semibold text-gray-800">MySQL</h2>
-        </div>
-        
-        <div class="bg-white shadow-xl rounded-2xl p-5 hover:scale-[1.03] transition-all duration-300 cursor-pointer hover:shadow-2xl">
-          <div class="flex justify-between items-center mb-2">
-            <span class="text-sm px-3 py-1 rounded-full bg-red-100 text-red-700 font-semibold">Advanced</span>
-            <span class="text-gray-500 text-xs">#9</span>
-          </div>
-          <h2 class="text-xl font-semibold text-gray-800">MySQL</h2>
-        </div>
-        
-        <div class="bg-white shadow-xl rounded-2xl p-5 hover:scale-[1.03] transition-all duration-300 cursor-pointer hover:shadow-2xl">
-          <div class="flex justify-between items-center mb-2">
-            <span class="text-sm px-3 py-1 rounded-full bg-green-100 text-green-700 font-semibold">Beginner</span>
-            <span class="text-gray-500 text-xs">#10</span>
-          </div>
-          <h2 class="text-xl font-semibold text-gray-800">Node.js</h2>
-        </div>
-        
-        <div class="bg-white shadow-xl rounded-2xl p-5 hover:scale-[1.03] transition-all duration-300 cursor-pointer hover:shadow-2xl">
-          <div class="flex justify-between items-center mb-2">
-            <span class="text-sm px-3 py-1 rounded-full bg-yellow-100 text-yellow-700 font-semibold">Intermediate</span>
-            <span class="text-gray-500 text-xs">#10</span>
-          </div>
-          <h2 class="text-xl font-semibold text-gray-800">Node.js</h2>
-        </div>
-        
-        <div class="bg-white shadow-xl rounded-2xl p-5 hover:scale-[1.03] transition-all duration-300 cursor-pointer hover:shadow-2xl">
-          <div class="flex justify-between items-center mb-2">
-            <span class="text-sm px-3 py-1 rounded-full bg-red-100 text-red-700 font-semibold">Advanced</span>
-            <span class="text-gray-500 text-xs">#10</span>
-          </div>
-          <h2 class="text-xl font-semibold text-gray-800">Node.js</h2>
-        </div>
-        
-        <div class="bg-white shadow-xl rounded-2xl p-5 hover:scale-[1.03] transition-all duration-300 cursor-pointer hover:shadow-2xl">
-          <div class="flex justify-between items-center mb-2">
-            <span class="text-sm px-3 py-1 rounded-full bg-green-100 text-green-700 font-semibold">Beginner</span>
-            <span class="text-gray-500 text-xs">#11</span>
-          </div>
-          <h2 class="text-xl font-semibold text-gray-800">PHP</h2>
-        </div>
-        
-        <div class="bg-white shadow-xl rounded-2xl p-5 hover:scale-[1.03] transition-all duration-300 cursor-pointer hover:shadow-2xl">
-          <div class="flex justify-between items-center mb-2">
-            <span class="text-sm px-3 py-1 rounded-full bg-yellow-100 text-yellow-700 font-semibold">Intermediate</span>
-            <span class="text-gray-500 text-xs">#11</span>
-          </div>
-          <h2 class="text-xl font-semibold text-gray-800">PHP</h2>
-        </div>
-        
-        <div class="bg-white shadow-xl rounded-2xl p-5 hover:scale-[1.03] transition-all duration-300 cursor-pointer hover:shadow-2xl">
-          <div class="flex justify-between items-center mb-2">
-            <span class="text-sm px-3 py-1 rounded-full bg-red-100 text-red-700 font-semibold">Advanced</span>
-            <span class="text-gray-500 text-xs">#11</span>
-          </div>
-          <h2 class="text-xl font-semibold text-gray-800">PHP</h2>
-        </div>
-        
-        <div class="bg-white shadow-xl rounded-2xl p-5 hover:scale-[1.03] transition-all duration-300 cursor-pointer hover:shadow-2xl">
-          <div class="flex justify-between items-center mb-2">
-            <span class="text-sm px-3 py-1 rounded-full bg-green-100 text-green-700 font-semibold">Beginner</span>
-            <span class="text-gray-500 text-xs">#12</span>
-          </div>
-          <h2 class="text-xl font-semibold text-gray-800">PostgreSQL</h2>
-        </div>
-        
-        <div class="bg-white shadow-xl rounded-2xl p-5 hover:scale-[1.03] transition-all duration-300 cursor-pointer hover:shadow-2xl">
-          <div class="flex justify-between items-center mb-2">
-            <span class="text-sm px-3 py-1 rounded-full bg-yellow-100 text-yellow-700 font-semibold">Intermediate</span>
-            <span class="text-gray-500 text-xs">#12</span>
-          </div>
-          <h2 class="text-xl font-semibold text-gray-800">PostgreSQL</h2>
-        </div>
-        
-        <div class="bg-white shadow-xl rounded-2xl p-5 hover:scale-[1.03] transition-all duration-300 cursor-pointer hover:shadow-2xl">
-          <div class="flex justify-between items-center mb-2">
-            <span class="text-sm px-3 py-1 rounded-full bg-red-100 text-red-700 font-semibold">Advanced</span>
-            <span class="text-gray-500 text-xs">#12</span>
-          </div>
-          <h2 class="text-xl font-semibold text-gray-800">PostgreSQL</h2>
-        </div>
-        
-        <div class="bg-white shadow-xl rounded-2xl p-5 hover:scale-[1.03] transition-all duration-300 cursor-pointer hover:shadow-2xl">
-          <div class="flex justify-between items-center mb-2">
-            <span class="text-sm px-3 py-1 rounded-full bg-green-100 text-green-700 font-semibold">Beginner</span>
-            <span class="text-gray-500 text-xs">#13</span>
-          </div>
-          <h2 class="text-xl font-semibold text-gray-800">Python</h2>
-        </div>
-        
-        <div class="bg-white shadow-xl rounded-2xl p-5 hover:scale-[1.03] transition-all duration-300 cursor-pointer hover:shadow-2xl">
-          <div class="flex justify-between items-center mb-2">
-            <span class="text-sm px-3 py-1 rounded-full bg-yellow-100 text-yellow-700 font-semibold">Intermediate</span>
-            <span class="text-gray-500 text-xs">#13</span>
-          </div>
-          <h2 class="text-xl font-semibold text-gray-800">Python</h2>
-        </div>
-        
-        <div class="bg-white shadow-xl rounded-2xl p-5 hover:scale-[1.03] transition-all duration-300 cursor-pointer hover:shadow-2xl">
-          <div class="flex justify-between items-center mb-2">
-            <span class="text-sm px-3 py-1 rounded-full bg-red-100 text-red-700 font-semibold">Advanced</span>
-            <span class="text-gray-500 text-xs">#13</span>
-          </div>
-          <h2 class="text-xl font-semibold text-gray-800">Python</h2>
-        </div>
-        
-        <div class="bg-white shadow-xl rounded-2xl p-5 hover:scale-[1.03] transition-all duration-300 cursor-pointer hover:shadow-2xl">
-          <div class="flex justify-between items-center mb-2">
-            <span class="text-sm px-3 py-1 rounded-full bg-green-100 text-green-700 font-semibold">Beginner</span>
-            <span class="text-gray-500 text-xs">#14</span>
-          </div>
-          <h2 class="text-xl font-semibold text-gray-800">React</h2>
-        </div>
-        
-        <div class="bg-white shadow-xl rounded-2xl p-5 hover:scale-[1.03] transition-all duration-300 cursor-pointer hover:shadow-2xl">
-          <div class="flex justify-between items-center mb-2">
-            <span class="text-sm px-3 py-1 rounded-full bg-yellow-100 text-yellow-700 font-semibold">Intermediate</span>
-            <span class="text-gray-500 text-xs">#14</span>
-          </div>
-          <h2 class="text-xl font-semibold text-gray-800">React</h2>
-        </div>
-        
-        <div class="bg-white shadow-xl rounded-2xl p-5 hover:scale-[1.03] transition-all duration-300 cursor-pointer hover:shadow-2xl">
-          <div class="flex justify-between items-center mb-2">
-            <span class="text-sm px-3 py-1 rounded-full bg-red-100 text-red-700 font-semibold">Advanced</span>
-            <span class="text-gray-500 text-xs">#14</span>
-          </div>
-          <h2 class="text-xl font-semibold text-gray-800">React</h2>
-        </div>
-        
-        
+    
   </div>
-  <!-- Upgraded Coming Soon Section -->
+<!-- Upgraded Coming Soon Section -->
 <div class="max-w-6xl mx-auto mt-20 bg-white/70 backdrop-blur-lg border border-blue-100 rounded-3xl shadow-2xl px-8 py-10 relative overflow-hidden">
   <!-- Accent bar -->
   <div class="absolute top-0 left-0 w-full h-2 bg-gradient-to-r from-blue-600 via-indigo-500 to-purple-600 rounded-t-3xl"></div>
@@ -393,7 +60,7 @@
     </div>
   </div>
 </div>
-<!-- Modern Footer -->
+ <!-- Modern Footer -->
 <footer class="bg-gray-900 text-gray-300 mt-24">
   <div class="max-w-6xl mx-auto px-6 py-12 grid gap-8 sm:grid-cols-2 md:grid-cols-3">
 
@@ -416,9 +83,10 @@
     <div>
       <h4 class="font-semibold text-white mb-2">Follow Us</h4>
       <div class="flex gap-4">
-        <a href="https://linkedin.com/in/syntaxDesigns" class="hover:text-blue-500 transition text-xl"><i class="fab fa-linkedin-in"></i></a>
-        <a href="https://github.com/Eazybel" class="hover:text-pink-400 transition text-xl"><i class="fab fa-github"></i></a>
-        <a href="https://t.me/syntaxDesigns" class="hover:text-sky-400 transition text-xl"><i class="fab fa-telegram"></i></a>
+        <a href="#" class="hover:text-blue-500 transition text-xl"><i class="fab fa-facebook-f"></i></a>
+        <a href="#" class="hover:text-pink-400 transition text-xl"><i class="fab fa-instagram"></i></a>
+        <a href="#" class="hover:text-sky-400 transition text-xl"><i class="fab fa-twitter"></i></a>
+        <a href="#" class="hover:text-red-500 transition text-xl"><i class="fab fa-youtube"></i></a>
       </div>
     </div>
 
@@ -430,8 +98,6 @@
 </footer>
 
 <!-- Font Awesome CDN for icons -->
-<script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio"></script>
 <script src="script.js"></script>
-
 </body>
 </html>
