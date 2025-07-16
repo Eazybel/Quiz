@@ -43,7 +43,7 @@ let question=[`
       <div class="bg-slate-700 rounded-2xl shadow-md p-6">
         <h2 class="text-xl font-semibold text-white mb-4">1. What is the capital of France?</h2>
         <div class="space-y-2">
-          <label><input type="radio" name="q1" class="accent-indigo-400 mr-2" /> Berlin</label><br>
+          <label class="a"><input type="radio" name="a" class="accent-indigo-400 mr-2" /> Berlin</label><br>
           <label><input type="radio" name="q1" class="accent-indigo-400 mr-2" /> Madrid</label><br>
           <label><input type="radio" name="q1" class="accent-indigo-400 mr-2" /> Paris</label><br>
           <label><input type="radio" name="q1" class="accent-indigo-400 mr-2" /> Rome</label>
@@ -53,7 +53,7 @@ let question=[`
       <div class="bg-slate-700 rounded-2xl shadow-md p-6">
         <h2 class="text-xl font-semibold text-white mb-4">2. Which planet is known as the Red Planet?</h2>
         <div class="space-y-2">
-          <label><input type="radio" name="q2" class="accent-indigo-400 mr-2" /> Earth</label><br>
+          <label class="a"><input type="radio" name="a" class="accent-indigo-400 mr-2" /> Earth</label><br>
           <label><input type="radio" name="q2" class="accent-indigo-400 mr-2" /> Venus</label><br>
           <label><input type="radio" name="q2" class="accent-indigo-400 mr-2" /> Mars</label><br>
           <label><input type="radio" name="q2" class="accent-indigo-400 mr-2" /> Jupiter</label>
@@ -63,7 +63,7 @@ let question=[`
       <div class="bg-slate-700 rounded-2xl shadow-md p-6">
         <h2 class="text-xl font-semibold text-white mb-4">3. What is the boiling point of water?</h2>
         <div class="space-y-2">
-          <label><input type="radio" name="q3" class="accent-indigo-400 mr-2" /> 50°C</label><br>
+          <label class="a"><input type="radio" name="a" class="accent-indigo-400 mr-2" /> 50°C</label><br>
           <label><input type="radio" name="q3" class="accent-indigo-400 mr-2" /> 75°C</label><br>
           <label><input type="radio" name="q3" class="accent-indigo-400 mr-2" /> 100°C</label><br>
           <label><input type="radio" name="q3" class="accent-indigo-400 mr-2" /> 150°C</label>
@@ -73,7 +73,7 @@ let question=[`
       <div class="bg-slate-700 rounded-2xl shadow-md p-6">
         <h2 class="text-xl font-semibold text-white mb-4">4. Who wrote "Romeo and Juliet"?</h2>
         <div class="space-y-2">
-          <label><input type="radio" name="q4" class="accent-indigo-400 mr-2" /> Mark Twain</label><br>
+          <label class="a"><input type="radio" name="a" class="accent-indigo-400 mr-2" /> Mark Twain</label><br>
           <label><input type="radio" name="q4" class="accent-indigo-400 mr-2" /> Charles Dickens</label><br>
           <label><input type="radio" name="q4" class="accent-indigo-400 mr-2" /> William Shakespeare</label><br>
           <label><input type="radio" name="q4" class="accent-indigo-400 mr-2" /> Jane Austen</label>
@@ -83,7 +83,7 @@ let question=[`
       <div class="bg-slate-700 rounded-2xl shadow-md p-6">
         <h2 class="text-xl font-semibold text-white mb-4">5. What does HTTP stand for?</h2>
         <div class="space-y-2">
-          <label><input type="radio" name="q5" class="accent-indigo-400 mr-2" /> Hyper Text Transfer Protocol</label><br>
+          <label class="a"><input type="radio" name="a" class="accent-indigo-400 mr-2" /> Hyper Text Transfer Protocol</label><br>
           <label><input type="radio" name="q5" class="accent-indigo-400 mr-2" /> Hyperlink Transfer Tool Program</label><br>
           <label><input type="radio" name="q5" class="accent-indigo-400 mr-2" /> High Traffic Transfer Protocol</label><br>
           <label><input type="radio" name="q5" class="accent-indigo-400 mr-2" /> Hyper Tool Transfer Port</label>
@@ -93,7 +93,7 @@ let question=[`
       <div class="bg-slate-700 rounded-2xl shadow-md p-6">
         <h2 class="text-xl font-semibold text-white mb-4">6. Which language is used to style web pages?</h2>
         <div class="space-y-2">
-          <label><input type="radio" name="q6" class="accent-indigo-400 mr-2" /> HTML</label><br>
+          <label class="a"><input type="radio" name="a" class="accent-indigo-400 mr-2" /> HTML</label><br>
           <label><input type="radio" name="q6" class="accent-indigo-400 mr-2" /> CSS</label><br>
           <label><input type="radio" name="q6" class="accent-indigo-400 mr-2" /> JavaScript</label><br>
           <label><input type="radio" name="q6" class="accent-indigo-400 mr-2" /> Python</label>
@@ -103,7 +103,7 @@ let question=[`
       <div class="bg-slate-700 rounded-2xl shadow-md p-6">
         <h2 class="text-xl font-semibold text-white mb-4">7. Which continent is the Sahara Desert located in?</h2>
         <div class="space-y-2">
-          <label><input type="radio" name="q7" class="accent-indigo-400 mr-2" /> Asia</label><br>
+          <label class="a"><input type="radio" name="a" class="accent-indigo-400 mr-2" /> Asia</label><br>
           <label><input type="radio" name="q7" class="accent-indigo-400 mr-2" /> South America</label><br>
           <label><input type="radio" name="q7" class="accent-indigo-400 mr-2" /> Africa</label><br>
           <label><input type="radio" name="q7" class="accent-indigo-400 mr-2" /> Australia</label>
@@ -113,7 +113,7 @@ let question=[`
       <div class="bg-slate-700 rounded-2xl shadow-md p-6">
         <h2 class="text-xl font-semibold text-white mb-4">8. What is the largest mammal in the world?</h2>
         <div class="space-y-2">
-          <label><input type="radio" name="q8" class="accent-indigo-400 mr-2" /> Elephant</label><br>
+          <label class="a"><input type="radio" name="a" class="accent-indigo-400 mr-2" /> Elephant</label><br>
           <label><input type="radio" name="q8" class="accent-indigo-400 mr-2" /> Giraffe</label><br>
           <label><input type="radio" name="q8" class="accent-indigo-400 mr-2" /> Blue Whale</label><br>
           <label><input type="radio" name="q8" class="accent-indigo-400 mr-2" /> Hippo</label>
@@ -123,7 +123,7 @@ let question=[`
       <div class="bg-slate-700 rounded-2xl shadow-md p-6">
         <h2 class="text-xl font-semibold text-white mb-4">9. Which gas do plants absorb from the atmosphere?</h2>
         <div class="space-y-2">
-          <label><input type="radio" name="q9" class="accent-indigo-400 mr-2" /> Oxygen</label><br>
+          <label class="a"><input type="radio" name="a" class="accent-indigo-400 mr-2" /> Oxygen</label><br>
           <label><input type="radio" name="q9" class="accent-indigo-400 mr-2" /> Carbon Dioxide</label><br>
           <label><input type="radio" name="q9" class="accent-indigo-400 mr-2" /> Nitrogen</label><br>
           <label><input type="radio" name="q9" class="accent-indigo-400 mr-2" /> Hydrogen</label>
@@ -133,7 +133,7 @@ let question=[`
       <div class="bg-slate-700 rounded-2xl shadow-md p-6">
         <h2 class="text-xl font-semibold text-white mb-4">10. What is the smallest prime number?</h2>
         <div class="space-y-2">
-          <label><input type="radio" name="q10" class="accent-indigo-400 mr-2" /> 0</label><br>
+          <label class="a"><input type="radio" name="a" class="accent-indigo-400 mr-2" /> 0</label><br>
           <label><input type="radio" name="q10" class="accent-indigo-400 mr-2" /> 1</label><br>
           <label><input type="radio" name="q10" class="accent-indigo-400 mr-2" /> 2</label><br>
           <label><input type="radio" name="q10" class="accent-indigo-400 mr-2" /> 3</label>
@@ -149,8 +149,10 @@ let question=[`
 
     </form>
   </div>`]
+  let answerA=[]
 const input=document.querySelectorAll("input")
 const btn=document.querySelectorAll(".btn")
+let labelA=document.getElementsByClassName("a")
 btn.forEach(btns=>{
    btns.onclick=()=>{ 
    [btns.parentElement.children[1].children].forEach(element => {
@@ -158,27 +160,47 @@ btn.forEach(btns=>{
       let deficulty=""
      if(element[0].querySelector("input").checked)
      {
-    //   selected=btns.parentElement.querySelector("h2").innerText
-    //   deficulty="easy"
-    //    fetch(`https://quizapi.io/api/v1/questions?apiKey=uY7Mpxfre42OGT8hBNOwDirHpCi1wMMLkjQ75dW4&limit=10&category=${selected}&difficulty=${deficulty}`)
-    //   .then(res=>res.json())
-    //   .then(data=>{
-    //   console.log(data)
-    //   container.innerHTML=""
+      selected=btns.parentElement.querySelector("h2").innerText
+      deficulty="easy"
+       fetch(`https://quizapi.io/api/v1/questions?apiKey=LSu3DAdnWagtzaWR6VMfKX4ErN7XCdOCDz725ocK&limit=10&category=${selected}&difficulty=${deficulty}`)
+      .then(res=>res.json())
+      .then(data=>{
+        console.log(data)
+        
+        let answerB=[]
+        let answerC=[]
+        let answerD=[]
+      data.forEach(datas=>{
+        
+
+      answerA+=`${[datas.answers.answer_a]},`
+      // answerB=datas.answers.answer_b
+      // answerC=datas.answers.answer_c
+      // answerD=datas.answers.answer_d
+      
+    })
+    let spliterA=answerA.split(",")
+    
+  
+    
+      container.innerHTML=""
       header.className="bg-gradient-to-br from-slate-800 via-slate-900 to-gray-900 min-h-screen flex items-center justify-center p-6 text-gray-100"
            header.innerHTML=question
-    //        let count=0
-    //  header.querySelectorAll("h2").forEach(texts=>{
-    //   texts.innerText=`${count+1}. ${data[count].question}`
-    //   console.log(data[count].answers)
-    //   count++
-    //  })
+           let count=0
+           
      header.querySelectorAll("h2").forEach(texts=>{
-      console.log(texts.nextSibling.nextSibling.querySelectorAll("input"))
+      texts.innerText=`${count+1}. ${data[count].question}`
+        
      })
-          
-      
-  //  })
+     header.querySelectorAll("label").forEach(texts=>{
+      if(texts.className=="a"){
+        //  tomorrow start from here
+      }
+        
+     })
+
+     
+   })
     
      }
   //    if(element[1].querySelector("input").checked)
