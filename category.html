@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SkillQuest - Choose Your Path</title>
+  <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer">
+</head>
+<body class="bg-gradient-to-br from-gray-50 to-gray-200 min-h-screen py-10 px-4">
+
+  <!-- Header -->
+  <div class="text-center mb-10">
+    <h1 class="text-4xl font-extrabold text-gray-800 mb-2">🚀 SkillQuest</h1>
+    <p class="text-gray-600 text-lg">Master your next skill — choose a category and select your preferred difficulty to begin your journey!</p>
+  </div>
+
+  <!-- Grid of Valid Categories -->
+  <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 max-w-7xl mx-auto">
+    <!-- Template for each card -->
+    <!-- Replace 'linux' with unique name for each category -->
+
+    <!-- Linux -->
+    <div class="bg-white shadow-md rounded-2xl p-5 hover:shadow-lg transition-all duration-300">
+      <h2 class="text-xl font-semibold text-gray-800 mb-3">Linux</h2>
+      <div class="flex flex-col gap-2 text-sm">
+        <label><input type="radio" name="linux" class="accent-blue-600 mr-2">Beginner</label>
+        <label><input type="radio" name="linux" class="accent-yellow-500 mr-2">Intermediate</label>
+        <label><input type="radio" name="linux" class="accent-red-500 mr-2">Advanced</label>
+      </div>
+      <button class="mt-4 w-full bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 rounded-xl transition">Select</button>
+    </div>
+
+    <!-- DevOps -->
+    <div class="bg-white shadow-md rounded-2xl p-5 hover:shadow-lg transition-all duration-300">
+      <h2 class="text-xl font-semibold text-gray-800 mb-3">DevOps</h2>
+      <div class="flex flex-col gap-2 text-sm">
+        <label><input type="radio" name="devops" class="accent-blue-600 mr-2">Beginner</label>
+        <label><input type="radio" name="devops" class="accent-yellow-500 mr-2">Intermediate</label>
+        <label><input type="radio" name="devops" class="accent-red-500 mr-2">Advanced</label>
+      </div>
+      <button class="mt-4 w-full bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 rounded-xl transition">Select</button>
+    </div>
+
+    <!-- Networking -->
+    <div class="bg-white shadow-md rounded-2xl p-5 hover:shadow-lg transition-all duration-300">
+      <h2 class="text-xl font-semibold text-gray-800 mb-3">Networking</h2>
+      <div class="flex flex-col gap-2 text-sm">
+        <label><input type="radio" name="networking" class="accent-blue-600 mr-2">Beginner</label>
+        <label><input type="radio" name="networking" class="accent-yellow-500 mr-2">Intermediate</label>
+        <label><input type="radio" name="networking" class="accent-red-500 mr-2">Advanced</label>
+      </div>
+      <button class="mt-4 w-full bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 rounded-xl transition">Select</button>
+    </div>
+
+    <!-- Programming -->
+    <div class="bg-white shadow-md rounded-2xl p-5 hover:shadow-lg transition-all duration-300">
+      <h2 class="text-xl font-semibold text-gray-800 mb-3">Programming</h2>
+      <div class="flex flex-col gap-2 text-sm">
+        <label><input type="radio" name="programming" class="accent-blue-600 mr-2">Beginner</label>
+        <label><input type="radio" name="programming" class="accent-yellow-500 mr-2">Intermediate</label>
+        <label><input type="radio" name="programming" class="accent-red-500 mr-2">Advanced</label>
+      </div>
+      <button class="mt-4 w-full bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 rounded-xl transition">Select</button>
+    </div>
+
+    <!-- Cloud -->
+    <div class="bg-white shadow-md rounded-2xl p-5 hover:shadow-lg transition-all duration-300">
+      <h2 class="text-xl font-semibold text-gray-800 mb-3">Cloud</h2>
+      <div class="flex flex-col gap-2 text-sm">
+        <label><input type="radio" name="cloud" class="accent-blue-600 mr-2">Beginner</label>
+        <label><input type="radio" name="cloud" class="accent-yellow-500 mr-2">Intermediate</label>
+        <label><input type="radio" name="cloud" class="accent-red-500 mr-2">Advanced</label>
+      </div>
+      <button class="mt-4 w-full bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 rounded-xl transition">Select</button>
+    </div>
+
+    <!-- Docker -->
+    <div class="bg-white shadow-md rounded-2xl p-5 hover:shadow-lg transition-all duration-300">
+      <h2 class="text-xl font-semibold text-gray-800 mb-3">Docker</h2>
+      <div class="flex flex-col gap-2 text-sm">
+        <label><input type="radio" name="docker" class="accent-blue-600 mr-2">Beginner</label>
+        <label><input type="radio" name="docker" class="accent-yellow-500 mr-2">Intermediate</label>
+        <label><input type="radio" name="docker" class="accent-red-500 mr-2">Advanced</label>
+      </div>
+      <button class="mt-4 w-full bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 rounded-xl transition">Select</button>
+    </div>
+
+    <!-- Kubernetes -->
+    <div class="bg-white shadow-md rounded-2xl p-5 hover:shadow-lg transition-all duration-300">
+      <h2 class="text-xl font-semibold text-gray-800 mb-3">Kubernetes</h2>
+      <div class="flex flex-col gap-2 text-sm">
+        <label><input type="radio" name="kubernetes" class="accent-blue-600 mr-2">Beginner</label>
+        <label><input type="radio" name="kubernetes" class="accent-yellow-500 mr-2">Intermediate</label>
+        <label><input type="radio" name="kubernetes" class="accent-red-500 mr-2">Advanced</label>
+      </div>
+      <button class="mt-4 w-full bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 rounded-xl transition">Select</button>
+    </div>
+
+    <!-- BASH -->
+    <div class="bg-white shadow-md rounded-2xl p-5 hover:shadow-lg transition-all duration-300">
+      <h2 class="text-xl font-semibold text-gray-800 mb-3">BASH</h2>
+      <div class="flex flex-col gap-2 text-sm">
+        <label><input type="radio" name="bash" class="accent-blue-600 mr-2">Beginner</label>
+        <label><input type="radio" name="bash" class="accent-yellow-500 mr-2">Intermediate</label>
+        <label><input type="radio" name="bash" class="accent-red-500 mr-2">Advanced</label>
+      </div>
+      <button class="mt-4 w-full bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 rounded-xl transition">Select</button>
+    </div>
+
+    <!-- HTML -->
+    <div class="bg-white shadow-md rounded-2xl p-5 hover:shadow-lg transition-all duration-300">
+      <h2 class="text-xl font-semibold text-gray-800 mb-3">HTML</h2>
+      <div class="flex flex-col gap-2 text-sm">
+        <label><input type="radio" name="html" class="accent-blue-600 mr-2">Beginner</label>
+        <label><input type="radio" name="html" class="accent-yellow-500 mr-2">Intermediate</label>
+        <label><input type="radio" name="html" class="accent-red-500 mr-2">Advanced</label>
+      </div>
+      <button class="mt-4 w-full bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 rounded-xl transition">Select</button>
+    </div>
+
+    <!-- MySQL -->
+    <div class="bg-white shadow-md rounded-2xl p-5 hover:shadow-lg transition-all duration-300">
+      <h2 class="text-xl font-semibold text-gray-800 mb-3">MySQL</h2>
+      <div class="flex flex-col gap-2 text-sm">
+        <label><input type="radio" name="mysql" class="accent-blue-600 mr-2">Beginner</label>
+        <label><input type="radio" name="mysql" class="accent-yellow-500 mr-2">Intermediate</label>
+        <label><input type="radio" name="mysql" class="accent-red-500 mr-2">Advanced</label>
+      </div>
+      <button class="mt-4 w-full bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 rounded-xl transition">Select</button>
+    </div>
+
+    <!-- PostgreSQL -->
+    <div class="bg-white shadow-md rounded-2xl p-5 hover:shadow-lg transition-all duration-300">
+      <h2 class="text-xl font-semibold text-gray-800 mb-3">PostgreSQL</h2>
+      <div class="flex flex-col gap-2 text-sm">
+        <label><input type="radio" name="postgres" class="accent-blue-600 mr-2">Beginner</label>
+        <label><input type="radio" name="postgres" class="accent-yellow-500 mr-2">Intermediate</label>
+        <label><input type="radio" name="postgres" class="accent-red-500 mr-2">Advanced</label>
+      </div>
+      <button class="mt-4 w-full bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 rounded-xl transition">Select</button>
+    </div>
+
+    <!-- JavaScript -->
+    <div class="bg-white shadow-md rounded-2xl p-5 hover:shadow-lg transition-all duration-300">
+      <h2 class="text-xl font-semibold text-gray-800 mb-3">JavaScript</h2>
+      <div class="flex flex-col gap-2 text-sm">
+        <label><input type="radio" name="javascript" class="accent-blue-600 mr-2">Beginner</label>
+        <label><input type="radio" name="javascript" class="accent-yellow-500 mr-2">Intermediate</label>
+        <label><input type="radio" name="javascript" class="accent-red-500 mr-2">Advanced</label>
+      </div>
+      <button class="mt-4 w-full bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 rounded-xl transition">Select</button>
+    </div>
+  </div>
+  <script src="category.js"></script>
+</body>
+</html>
