@@ -1,5 +1,4 @@
 .env
 .env.local
 *.env
-.catrgory.js
-*.catrgory.js
+.category.js
