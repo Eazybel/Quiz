@@ -9,117 +9,118 @@
 <body class="bg-gradient-to-br from-slate-800 via-slate-900 to-gray-900 min-h-screen flex items-center justify-center p-6 text-gray-100">
 
   <div class="max-w-4xl w-full">
-    <!-- Header -->
     <div class="text-center mb-12">
       <h1 class="text-5xl font-extrabold text-indigo-300 mb-4 tracking-tight">🚀 Ready to Challenge Your Brain?</h1>
       <p class="text-lg text-gray-300">Answer each question to the best of your knowledge — let’s see what you’ve got!</p>
     </div>
 
-    <!-- Quiz Form -->
+    <div class="absolute top-4 right-4 bg-blue-600 rounded-lg shadow-lg p-3 text-center text-sm">
+      <h3 class="font-bold text-white mb-1">Your Latest Score:</h3>
+      <p id="latest-score" class="text-2xl font-extrabold text-blue-200">--</p>
+    </div>
+
     <form class="space-y-10">
 
-      <!-- Question Template (x10 filled) -->
       <div class="bg-slate-700 rounded-2xl shadow-md p-6">
         <h2 class="text-xl font-semibold text-white mb-4">1. What is the capital of France?</h2>
         <div class="space-y-2">
-          <label><input type="radio" name="q1" class="accent-indigo-400 mr-2" /> Berlin</label><br>
-          <label><input type="radio" name="q1" class="accent-indigo-400 mr-2" /> Madrid</label><br>
-          <label><input type="radio" name="q1" class="accent-indigo-400 mr-2" /> Paris</label><br>
-          <label><input type="radio" name="q1" class="accent-indigo-400 mr-2" /> Rome</label>
+          <label><input type="radio" name="q1" class="accent-indigo-400 mr-2" /> <span class="a">Berlin</span></label><br>
+          <label><input type="radio" name="q1" class="accent-indigo-400 mr-2" /> <span class="b">Madrid</span></label><br>
+          <label><input type="radio" name="q1" class="accent-indigo-400 mr-2" /> <span class="c">Paris</span></label><br>
+          <label><input type="radio" name="q1" class="accent-indigo-400 mr-2" /> <span class="d">Rome</span></label>
         </div>
       </div>
 
       <div class="bg-slate-700 rounded-2xl shadow-md p-6">
         <h2 class="text-xl font-semibold text-white mb-4">2. Which planet is known as the Red Planet?</h2>
         <div class="space-y-2">
-          <label><input type="radio" name="q2" class="accent-indigo-400 mr-2" /> Earth</label><br>
-          <label><input type="radio" name="q2" class="accent-indigo-400 mr-2" /> Venus</label><br>
-          <label><input type="radio" name="q2" class="accent-indigo-400 mr-2" /> Mars</label><br>
-          <label><input type="radio" name="q2" class="accent-indigo-400 mr-2" /> Jupiter</label>
+          <label><input type="radio" name="q2" class="accent-indigo-400 mr-2" /> <span class="a">Earth</span></label><br>
+          <label><input type="radio" name="q2" class="accent-indigo-400 mr-2" /> <span class="b">Venus</span></label><br>
+          <label><input type="radio" name="q2" class="accent-indigo-400 mr-2" /> <span class="c">Mars</span></label><br>
+          <label><input type="radio" name="q2" class="accent-indigo-400 mr-2" /> <span class="d">Jupiter</span></label>
         </div>
       </div>
 
       <div class="bg-slate-700 rounded-2xl shadow-md p-6">
         <h2 class="text-xl font-semibold text-white mb-4">3. What is the boiling point of water?</h2>
         <div class="space-y-2">
-          <label><input type="radio" name="q3" class="accent-indigo-400 mr-2" /> 50°C</label><br>
-          <label><input type="radio" name="q3" class="accent-indigo-400 mr-2" /> 75°C</label><br>
-          <label><input type="radio" name="q3" class="accent-indigo-400 mr-2" /> 100°C</label><br>
-          <label><input type="radio" name="q3" class="accent-indigo-400 mr-2" /> 150°C</label>
+          <label><input type="radio" name="q3" class="accent-indigo-400 mr-2" /> <span class="a">50°C</span></label><br>
+          <label><input type="radio" name="q3" class="accent-indigo-400 mr-2" /> <span class="b">75°C</span></label><br>
+          <label><input type="radio" name="q3" class="accent-indigo-400 mr-2" /> <span class="c">100°C</span></label><br>
+          <label><input type="radio" name="q3" class="accent-indigo-400 mr-2" /> <span class="d">150°C</span></label>
         </div>
       </div>
 
       <div class="bg-slate-700 rounded-2xl shadow-md p-6">
         <h2 class="text-xl font-semibold text-white mb-4">4. Who wrote "Romeo and Juliet"?</h2>
         <div class="space-y-2">
-          <label><input type="radio" name="q4" class="accent-indigo-400 mr-2" /> Mark Twain</label><br>
-          <label><input type="radio" name="q4" class="accent-indigo-400 mr-2" /> Charles Dickens</label><br>
-          <label><input type="radio" name="q4" class="accent-indigo-400 mr-2" /> William Shakespeare</label><br>
-          <label><input type="radio" name="q4" class="accent-indigo-400 mr-2" /> Jane Austen</label>
+          <label><input type="radio" name="q4" class="accent-indigo-400 mr-2" /> <span class="a">Mark Twain</span></label><br>
+          <label><input type="radio" name="q4" class="accent-indigo-400 mr-2" /> <span class="b">Charles Dickens</span></label><br>
+          <label><input type="radio" name="q4" class="accent-indigo-400 mr-2" /> <span class="c">William Shakespeare</span></label><br>
+          <label><input type="radio" name="q4" class="accent-indigo-400 mr-2" /> <span class="d">Jane Austen</span></label>
         </div>
       </div>
 
       <div class="bg-slate-700 rounded-2xl shadow-md p-6">
         <h2 class="text-xl font-semibold text-white mb-4">5. What does HTTP stand for?</h2>
         <div class="space-y-2">
-          <label><input type="radio" name="q5" class="accent-indigo-400 mr-2" /> Hyper Text Transfer Protocol</label><br>
-          <label><input type="radio" name="q5" class="accent-indigo-400 mr-2" /> Hyperlink Transfer Tool Program</label><br>
-          <label><input type="radio" name="q5" class="accent-indigo-400 mr-2" /> High Traffic Transfer Protocol</label><br>
-          <label><input type="radio" name="q5" class="accent-indigo-400 mr-2" /> Hyper Tool Transfer Port</label>
+          <label><input type="radio" name="q5" class="accent-indigo-400 mr-2" /> <span class="a">Hyper Text Transfer Protocol</span></label><br>
+          <label><input type="radio" name="q5" class="accent-indigo-400 mr-2" /> <span class="b">Hyperlink Transfer Tool Program</span></label><br>
+          <label><input type="radio" name="q5" class="accent-indigo-400 mr-2" /> <span class="c">High Traffic Transfer Protocol</span></label><br>
+          <label><input type="radio" name="q5" class="accent-indigo-400 mr-2" /> <span class="d">Hyper Tool Transfer Port</span></label>
         </div>
       </div>
 
       <div class="bg-slate-700 rounded-2xl shadow-md p-6">
         <h2 class="text-xl font-semibold text-white mb-4">6. Which language is used to style web pages?</h2>
         <div class="space-y-2">
-          <label><input type="radio" name="q6" class="accent-indigo-400 mr-2" /> HTML</label><br>
-          <label><input type="radio" name="q6" class="accent-indigo-400 mr-2" /> CSS</label><br>
-          <label><input type="radio" name="q6" class="accent-indigo-400 mr-2" /> JavaScript</label><br>
-          <label><input type="radio" name="q6" class="accent-indigo-400 mr-2" /> Python</label>
+          <label><input type="radio" name="q6" class="accent-indigo-400 mr-2" /> <span class="a">HTML</span></label><br>
+          <label><input type="radio" name="q6" class="accent-indigo-400 mr-2" /> <span class="b">CSS</span></label><br>
+          <label><input type="radio" name="q6" class="accent-indigo-400 mr-2" /> <span class="c">JavaScript</span></label><br>
+          <label><input type="radio" name="q6" class="accent-indigo-400 mr-2" /> <span class="d">Python</span></label>
         </div>
       </div>
 
       <div class="bg-slate-700 rounded-2xl shadow-md p-6">
         <h2 class="text-xl font-semibold text-white mb-4">7. Which continent is the Sahara Desert located in?</h2>
         <div class="space-y-2">
-          <label><input type="radio" name="q7" class="accent-indigo-400 mr-2" /> Asia</label><br>
-          <label><input type="radio" name="q7" class="accent-indigo-400 mr-2" /> South America</label><br>
-          <label><input type="radio" name="q7" class="accent-indigo-400 mr-2" /> Africa</label><br>
-          <label><input type="radio" name="q7" class="accent-indigo-400 mr-2" /> Australia</label>
+          <label><input type="radio" name="q7" class="accent-indigo-400 mr-2" /> <span class="a">Asia</span></label><br>
+          <label><input type="radio" name="q7" class="accent-indigo-400 mr-2" /> <span class="b">South America</span></label><br>
+          <label><input type="radio" name="q7" class="accent-indigo-400 mr-2" /> <span class="c">Africa</span></label><br>
+          <label><input type="radio" name="q7" class="accent-indigo-400 mr-2" /> <span class="d">Australia</span></label>
         </div>
       </div>
 
       <div class="bg-slate-700 rounded-2xl shadow-md p-6">
         <h2 class="text-xl font-semibold text-white mb-4">8. What is the largest mammal in the world?</h2>
         <div class="space-y-2">
-          <label><input type="radio" name="q8" class="accent-indigo-400 mr-2" /> Elephant</label><br>
-          <label><input type="radio" name="q8" class="accent-indigo-400 mr-2" /> Giraffe</label><br>
-          <label><input type="radio" name="q8" class="accent-indigo-400 mr-2" /> Blue Whale</label><br>
-          <label><input type="radio" name="q8" class="accent-indigo-400 mr-2" /> Hippo</label>
+          <label><input type="radio" name="q8" class="accent-indigo-400 mr-2" /> <span class="a">Elephant</span></label><br>
+          <label><input type="radio" name="q8" class="accent-indigo-400 mr-2" /> <span class="b">Giraffe</span></label><br>
+          <label><input type="radio" name="q8" class="accent-indigo-400 mr-2" /> <span class="c">Blue Whale</span></label><br>
+          <label><input type="radio" name="q8" class="accent-indigo-400 mr-2" /> <span class="d">Hippo</span></label>
         </div>
       </div>
 
       <div class="bg-slate-700 rounded-2xl shadow-md p-6">
         <h2 class="text-xl font-semibold text-white mb-4">9. Which gas do plants absorb from the atmosphere?</h2>
         <div class="space-y-2">
-          <label><input type="radio" name="q9" class="accent-indigo-400 mr-2" /> Oxygen</label><br>
-          <label><input type="radio" name="q9" class="accent-indigo-400 mr-2" /> Carbon Dioxide</label><br>
-          <label><input type="radio" name="q9" class="accent-indigo-400 mr-2" /> Nitrogen</label><br>
-          <label><input type="radio" name="q9" class="accent-indigo-400 mr-2" /> Hydrogen</label>
+          <label><input type="radio" name="q9" class="accent-indigo-400 mr-2" /> <span class="a">Oxygen</span></label><br>
+          <label><input type="radio" name="q9" class="accent-indigo-400 mr-2" /> <span class="b">Carbon Dioxide</span></label><br>
+          <label><input type="radio" name="q9" class="accent-indigo-400 mr-2" /> <span class="c">Nitrogen</span></label><br>
+          <label><input type="radio" name="q9" class="accent-indigo-400 mr-2" /> <span class="d">Hydrogen</span></label>
         </div>
       </div>
 
       <div class="bg-slate-700 rounded-2xl shadow-md p-6">
         <h2 class="text-xl font-semibold text-white mb-4">10. What is the smallest prime number?</h2>
         <div class="space-y-2">
-          <label><input type="radio" name="q10" class="accent-indigo-400 mr-2" /> 0</label><br>
-          <label><input type="radio" name="q10" class="accent-indigo-400 mr-2" /> 1</label><br>
-          <label><input type="radio" name="q10" class="accent-indigo-400 mr-2" /> 2</label><br>
-          <label><input type="radio" name="q10" class="accent-indigo-400 mr-2" /> 3</label>
+          <label><input type="radio" name="q10" class="accent-indigo-400 mr-2" /> <span class="a">0</span></label><br>
+          <label><input type="radio" name="q10" class="accent-indigo-400 mr-2" /> <span class="b">1</span></label><br>
+          <label><input type="radio" name="q10" class="accent-indigo-400 mr-2" /> <span class="c">2</span></label><br>
+          <label><input type="radio" name="q10" class="accent-indigo-400 mr-2" /> <span class="d">3</span></label>
         </div>
       </div>
 
-      <!-- Submit Button -->
       <div class="text-center pt-8">
         <button type="submit" class="bg-indigo-500 text-white text-lg font-semibold px-8 py-3 rounded-full shadow hover:bg-indigo-600 transition duration-300">
           Submit Answers
