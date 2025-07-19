@@ -1,6 +1,6 @@
 const span =document.querySelectorAll("span")
 const button=document.querySelectorAll("button")
- button.forEach(buttons=>{
+button.forEach(buttons=>{
 buttons.onclick=()=>{
  const input=buttons.parentElement.querySelectorAll("input")
  input.forEach(inputs=>{
